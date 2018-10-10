@@ -1,0 +1,83 @@
+D:\RubyExamples\VoC_scripts>D:\Software\Ruby24-x64\bin\ruby.exe D:\RubyExamples\VoC_scripts\JenkinsTest\test_case_fw_VoC_toolbox_module.rb 
+D:\RubyExamples\VoC_scripts>D:\Software\Ruby24-x64\bin\ruby.exe D:\RubyExamples\VoC_scripts\JenkinsTest\test_case_fw_VoC_toolbox_tests_additional.rb 
+Number of Failures: 0
+
+Finished in 102.659244 seconds.
+-------------------------------------------------------------------------------
+1 tests, 2 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+-------------------------------------------------------------------------------
+0.01 tests/s, 0.02 assertions/s
+D:\RubyExamples\VoC_scripts>D:\Software\Ruby24-x64\bin\ruby.exe D:\RubyExamples\VoC_scripts\JenkinsTest\test_case_fw_VoC_toolbox_tests_filter.rb 
+Number of Failures: 0
+
+Finished in 90.475744 seconds.
+-------------------------------------------------------------------------------
+1 tests, 2 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+-------------------------------------------------------------------------------
+0.01 tests/s, 0.02 assertions/s
+D:\RubyExamples\VoC_scripts>D:\Software\Ruby24-x64\bin\ruby.exe D:\RubyExamples\VoC_scripts\JenkinsTest\test_case_fw_VoC_toolbox_tests_filter_FAIL.rb 
+Number of Failures: 0
+
+Finished in 77.362838 seconds.
+-------------------------------------------------------------------------------
+1 tests, 2 assertions, 0 failures, 1 errors, 0 pendings, 0 omissions, 0 notifications
+0% passed
+-------------------------------------------------------------------------------
+0.01 tests/s, 0.03 assertions/s
+D:\RubyExamples\VoC_scripts>D:\Software\Ruby24-x64\bin\ruby.exe D:\RubyExamples\VoC_scripts\JenkinsTest\test_case_fw_VoC_toolbox_tests_imd_voc_reporting.rb 
+Number of Failures: 0
+
+Finished in 75.356461 seconds.
+-------------------------------------------------------------------------------
+1 tests, 8 assertions, 1 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+0% passed
+-------------------------------------------------------------------------------
+0.01 tests/s, 0.11 assertions/s
+D:\RubyExamples\VoC_scripts>D:\Software\Ruby24-x64\bin\ruby.exe D:\RubyExamples\VoC_scripts\JenkinsTest\test_case_fw_VoC_toolbox_tests_info_export_panel.rb 
+Number of Failures: 0
+
+Finished in 80.271285 seconds.
+-------------------------------------------------------------------------------
+1 tests, 2 assertions, 0 failures, 1 errors, 0 pendings, 0 omissions, 0 notifications
+0% passed
+-------------------------------------------------------------------------------
+0.01 tests/s, 0.02 assertions/s
+D:\RubyExamples\VoC_scripts>D:\Software\Ruby24-x64\bin\ruby.exe D:\RubyExamples\VoC_scripts\JenkinsTest\test_case_fw_VoC_toolbox_tests_navbar.rb 
+Number of Failures: 0
+
+Finished in 43.424751 seconds.
+-------------------------------------------------------------------------------
+1 tests, 1 assertions, 0 failures, 1 errors, 0 pendings, 0 omissions, 0 notifications
+0% passed
+-------------------------------------------------------------------------------
+0.02 tests/s, 0.02 assertions/s
+D:\RubyExamples\VoC_scripts>D:\Software\Ruby24-x64\bin\ruby.exe D:\RubyExamples\VoC_scripts\JenkinsTest\test_case_fw_VoC_toolbox_tests_table.rb 
+Number of Failures: 0
+
+Finished in 48.940261 seconds.
+-------------------------------------------------------------------------------
+1 tests, 2 assertions, 0 failures, 1 errors, 0 pendings, 0 omissions, 0 notifications
+0% passed
+-------------------------------------------------------------------------------
+0.02 tests/s, 0.04 assertions/s
+D:\RubyExamples\VoC_scripts>D:\Software\Ruby24-x64\bin\ruby.exe D:\RubyExamples\VoC_scripts\JenkinsTest\test_case_fw_VoC_toolbox_tests_table_detail.rb 
+Number of Failures: 0
+
+Finished in 42.770276 seconds.
+-------------------------------------------------------------------------------
+1 tests, 2 assertions, 0 failures, 1 errors, 0 pendings, 0 omissions, 0 notifications
+0% passed
+-------------------------------------------------------------------------------
+0.02 tests/s, 0.05 assertions/s
+D:\RubyExamples\VoC_scripts>D:\Software\Ruby24-x64\bin\ruby.exe D:\RubyExamples\VoC_scripts\JenkinsTest\test_case_fw_VoC_toolbox_tests_voc_reporting.rb 
+Number of Failures: 0
+
+Finished in 72.915189 seconds.
+-------------------------------------------------------------------------------
+1 tests, 8 assertions, 1 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+0% passed
+-------------------------------------------------------------------------------
+0.01 tests/s, 0.11 assertions/s
+D:\RubyExamples\VoC_scripts>D:\Software\Ruby24-x64\bin\ruby.exe D:\RubyExamples\VoC_scripts\EvaluateResults.rb 
