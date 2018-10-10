@@ -1,0 +1,20 @@
+//Simple example to archieve build artifacts
+pipeline {
+   agent{ label 'master'}
+    stages {
+        stage('Execute Test Scripts')
+        {
+            steps{
+                echo 'Executing Test Scripts'
+                bat 'Batch.bat'
+            }
+        }
+        stage('Evaluate Test Results')
+        {
+            steps{
+                echo 'Evaluate Test Results'
+                 bat 'Evaluate.bat'
+                }
+        }
+    }
+}
