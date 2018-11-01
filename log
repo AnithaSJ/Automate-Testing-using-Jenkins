@@ -1,0 +1,1502 @@
+Gestartet durch Benutzer [8mha:////4NWLvg6SVCo1me/VRFOUL5XE3f2mDx2InS1S63awpCU4AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKK2vVLpcJb0ykYmByZOBLSc1L70kw4eBubQop4RByCcrsSxRPycxL10/uKQoMy/dGmicFJpxzhAa3d4CIEOshIFLv7Q4tUi/xNzYAACho7fAvwAAAA==[0mAnitha S  Jagadishwara
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4Bc5S0T0T5vG9UbnnDT5gznCnTqIp72dqk3lIK1OxgcCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on [8mha:////4HGx0Z5NT3s9uuZjLWCGL5KBnOxl8Nd9TemnhA3IB/IWAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKK2vVLpcJb0ykYmByZOBLSc1L70kw4eBubQop4RByCcrsSxRPycxL10/uKQoMy/dGmicFJpxzhAa3d4CIIO9hEFYPzk/t6C0JLVIXyM3sRhIa+oDAFAjsbDIAAAA[0mJenkins in D:\Software\workspace\PipelineTest_Watir
+[8mha:////4Bc5S0T0T5vG9UbnnDT5gznCnTqIp72dqk3lIK1OxgcCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4Bc5S0T0T5vG9UbnnDT5gznCnTqIp72dqk3lIK1OxgcCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4Bc5S0T0T5vG9UbnnDT5gznCnTqIp72dqk3lIK1OxgcCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Execute Test Scripts)
+[8mha:////4Bc5S0T0T5vG9UbnnDT5gznCnTqIp72dqk3lIK1OxgcCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] echo
+Executing Test Scripts
+[8mha:////4Bc5S0T0T5vG9UbnnDT5gznCnTqIp72dqk3lIK1OxgcCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] bat
+[PipelineTest_Watir] Running batch script
+
+D:\Software\workspace\PipelineTest_Watir>D:/RubyExamples/VoC_scripts/Batch.bat
+
+D:\Software\workspace\PipelineTest_Watir>echo "--------------------------------Start Batch Run--------------------------------------------------------" 
+"--------------------------------Start Batch Run--------------------------------------------------------"
+
+D:\Software\workspace\PipelineTest_Watir>cd D:\RubyExamples\VoC_scripts 
+
+D:\RubyExamples\VoC_scripts>echo "Start File1" 
+"Start File1"
+
+D:\RubyExamples\VoC_scripts>D:\Software\Ruby24-x64\bin\ruby.exe D:\RubyExamples\VoC_scripts\JenkinsTest\test_case_fw_VoC_toolbox_tests_imd_voc_reporting.rb 
+Test: Ã„Ã–ÃœÃ¤Ã¶Ã¼ÃŸ
+2018.11.01 14:27:53 - START TESTING . . .
+Test: Ã„Ã–ÃœÃ¤Ã¶Ã¼ÃŸ
+Test: Ã„Ã–ÃœÃ¤Ã¶Ã¼ÃŸ
+Loaded suite D:/RubyExamples/VoC_scripts/JenkinsTest/test_case_fw_VoC_toolbox_tests_imd_voc_reporting
+Started
+Browser: firefox
+2018-11-01 14:27:56 WARN Selenium [DEPRECATION] :timeout= is deprecated. Use #read_timeout= and #open_timeout= instead.
+2018.11.01 14:27:56 - TestExample.startup: @@client.timeout = 
+E
+===============================================================================
+Error: TestExample: Selenium::WebDriver::Error::UnknownError: newSession
+stack backtrace:
+   0:           0x4bb74f - <no info>
+   1:           0x4bbea9 - <no info>
+   2:           0x43ce8d - <no info>
+   3:           0x44ce14 - <no info>
+   4:           0x44944a - <no info>
+   5:           0x4203e1 - <no info>
+   6:           0x407dc7 - <no info>
+   7:           0x6d95b9 - <no info>
+   8:           0x4173a7 - <no info>
+   9:           0x6d38b3 - <no info>
+  10:     0x7ffc2ca93034 - BaseThreadInitThunk
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/response.rb:69:in `assert_ok'
+     66:         private
+     67: 
+     68:         def assert_ok
+  => 69:           e = error
+     70:           raise e if e
+     71:           return unless @code.nil? || @code >= 400
+     72:           raise Error::ServerError, self
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/response.rb:32:in `initialize'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/http/common.rb:84:in `new'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/http/common.rb:84:in `create_response'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/http/default.rb:104:in `request'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/http/common.rb:62:in `call'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/bridge.rb:164:in `execute'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/bridge.rb:97:in `create_session'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/firefox/marionette/driver.rb:50:in `initialize'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/firefox/driver.rb:31:in `new'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/firefox/driver.rb:31:in `new'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/common/driver.rb:52:in `for'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver.rb:86:in `for'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/watir-6.10.3/lib/watir/browser.rb:48:in `initialize'
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:113:in `new'
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:113:in `startup'
+===============================================================================
+2018.11.01 14:28:01 - TestExample.setup: running TestExample.test_issue_management_dashboard ...
+2018.11.01 14:28:01 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:28:01 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:28:01 - Exception: retries = 0
+2018.11.01 14:28:01 - Exception: time_to_wait = 20
+2018.11.01 14:28:21 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:28:21 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:28:21 - Exception: retries = 1
+2018.11.01 14:28:21 - Exception: time_to_wait = 20
+2018.11.01 14:28:41 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:28:41 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:28:41 - Exception: retries = 2
+2018.11.01 14:28:41 - Exception: time_to_wait = 20
+2018.11.01 14:29:01 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:29:01 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:29:01 - Exception: retries = 3
+2018.11.01 14:29:01 - Exception: time_to_wait = 20
+2018.11.01 14:29:21 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:29:21 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:29:21 - Exception: retries = 4
+2018.11.01 14:29:21 - Exception: time_to_wait = 20
+2018.11.01 14:29:41 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:29:41 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:29:41 - Exception: retries = 5
+2018.11.01 14:29:41 - Exception: time_to_wait = 20
+2018.11.01 14:30:01 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:30:01 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:30:01 - Exception: retries = 6
+2018.11.01 14:30:01 - Exception: raise Exception
+
+>>>StandardError, ScriptError<<<
+
+bck: ["D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:205:in `block in setup'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:318:in `block in load_link'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:93:in `block in timeout'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `block in catch'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:108:in `timeout'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:315:in `load_link'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:205:in `setup'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:278:in `run_fixture_callback'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:266:in `block in create_fixtures_runner'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:270:in `block in create_fixtures_runner'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:251:in `run_fixture'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:286:in `run_setup'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testcase.rb:497:in `block in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testcase.rb:496:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testcase.rb:496:in `run'", "D:/RubyExamples/VoC_scripts/test_case_run_method.rb:10:in `run'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:175:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:124:in `run_test'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:53:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:124:in `run_test'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:53:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:67:in `run_suite'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:45:in `block (2 levels) in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:102:in `with_listener'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:41:in `block in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:39:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:39:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunner.rb:40:in `start_mediator'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunner.rb:25:in `start'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnerutilities.rb:24:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:435:in `block in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:491:in `change_work_directory'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:434:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:62:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit.rb:502:in `block (2 levels) in <top (required)>'"]
+
+>>>StandardError, ScriptError<<<
+
+bck: ["D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:318:in `block in load_link'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:93:in `block in timeout'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `block in catch'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:108:in `timeout'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:315:in `load_link'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:205:in `setup'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:278:in `run_fixture_callback'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:266:in `block in create_fixtures_runner'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:270:in `block in create_fixtures_runner'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:251:in `run_fixture'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:286:in `run_setup'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testcase.rb:497:in `block in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testcase.rb:496:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testcase.rb:496:in `run'", "D:/RubyExamples/VoC_scripts/test_case_run_method.rb:10:in `run'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:175:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:124:in `run_test'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:53:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:124:in `run_test'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:53:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:67:in `run_suite'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:45:in `block (2 levels) in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:102:in `with_listener'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:41:in `block in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:39:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:39:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunner.rb:40:in `start_mediator'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunner.rb:25:in `start'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnerutilities.rb:24:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:435:in `block in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:491:in `change_work_directory'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:434:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:62:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit.rb:502:in `block (2 levels) in <top (required)>'"]
+E
+===============================================================================
+Error: test_issue_management_dashboard(TestExample): NameError: uninitialized class variable @@b in TestExample
+D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:93:in `block in timeout'
+D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `block in catch'
+D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `catch'
+D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `catch'
+D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:108:in `timeout'
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:315:in `load_link'
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:205:in `setup'
+D:/RubyExamples/VoC_scripts/test_case_run_method.rb:10:in `run'
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:175:in `run'
+===============================================================================
+2018.11.01 14:30:01 - TestExample.teardown: terminating TestExample.test_issue_management_dashboard ...
+2018.11.01 14:30:01 - TestExample.teardown: FAIL
+E
+===============================================================================
+Error: test_issue_management_dashboard(TestExample): NameError: uninitialized class variable @@b in TestExample
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:236:in `teardown'
+D:/RubyExamples/VoC_scripts/test_case_run_method.rb:10:in `run'
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:175:in `run'
+===============================================================================
+E
+===============================================================================
+Error: TestExample: NameError: uninitialized class variable @@b in TestExample
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:150:in `shutdown'
+     147: 
+     148:     def shutdown
+     149:       time = Time.new
+  => 150:       puts "#{time.strftime('%Y.%m.%d %H:%M:%S')} - #{self.name}.#{__method__.to_s}: @@browser = #{@@browser} --- @@b = #{@@b}\n"
+     151:       #puts "#{time.strftime('%Y.%m.%d %H:%M:%S')} - #{self.to_s}.#{__method__.to_s}: @@browser = #{@@browser} --- @@b = #{@@b}\n"
+     152: 
+     153:       @@b.close
+===============================================================================
+
+Finished in 125.604784 seconds.
+-------------------------------------------------------------------------------
+1 tests, 0 assertions, 0 failures, 4 errors, 0 pendings, 0 omissions, 0 notifications
+0% passed
+-------------------------------------------------------------------------------
+0.01 tests/s, 0.00 assertions/s
+
+D:\RubyExamples\VoC_scripts>echo "End File1" 
+"End File1"
+
+D:\RubyExamples\VoC_scripts>echo "--------------------------------------------------------------------------------------------------------" 
+"--------------------------------------------------------------------------------------------------------"
+
+D:\RubyExamples\VoC_scripts>echo "Start File2" 
+"Start File2"
+
+D:\RubyExamples\VoC_scripts>D:\Software\Ruby24-x64\bin\ruby.exe D:\RubyExamples\VoC_scripts\JenkinsTest\test_case_fw_VoC_toolbox_tests_additional.rb 
+Test: Ã„Ã–ÃœÃ¤Ã¶Ã¼ÃŸ
+2018.11.01 14:30:02 - START TESTING . . .
+Test: Ã„Ã–ÃœÃ¤Ã¶Ã¼ÃŸ
+Test: Ã„Ã–ÃœÃ¤Ã¶Ã¼ÃŸ
+Loaded suite D:/RubyExamples/VoC_scripts/JenkinsTest/test_case_fw_VoC_toolbox_tests_additional
+Started
+Browser: firefox
+2018-11-01 14:30:04 WARN Selenium [DEPRECATION] :timeout= is deprecated. Use #read_timeout= and #open_timeout= instead.
+2018.11.01 14:30:04 - TestExample.startup: @@client.timeout = 
+E
+===============================================================================
+Error: TestExample: Selenium::WebDriver::Error::UnknownError: newSession
+stack backtrace:
+   0:           0x4bb74f - <no info>
+   1:           0x4bbea9 - <no info>
+   2:           0x43ce8d - <no info>
+   3:           0x44ce14 - <no info>
+   4:           0x44944a - <no info>
+   5:           0x4203e1 - <no info>
+   6:           0x407dc7 - <no info>
+   7:           0x6d95b9 - <no info>
+   8:           0x4173a7 - <no info>
+   9:           0x6d38b3 - <no info>
+  10:     0x7ffc2ca93034 - BaseThreadInitThunk
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/response.rb:69:in `assert_ok'
+     66:         private
+     67: 
+     68:         def assert_ok
+  => 69:           e = error
+     70:           raise e if e
+     71:           return unless @code.nil? || @code >= 400
+     72:           raise Error::ServerError, self
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/response.rb:32:in `initialize'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/http/common.rb:84:in `new'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/http/common.rb:84:in `create_response'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/http/default.rb:104:in `request'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/http/common.rb:62:in `call'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/bridge.rb:164:in `execute'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/bridge.rb:97:in `create_session'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/firefox/marionette/driver.rb:50:in `initialize'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/firefox/driver.rb:31:in `new'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/firefox/driver.rb:31:in `new'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/common/driver.rb:52:in `for'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver.rb:86:in `for'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/watir-6.10.3/lib/watir/browser.rb:48:in `initialize'
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:113:in `new'
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:113:in `startup'
+===============================================================================
+2018.11.01 14:30:08 - TestExample.setup: running TestExample.test_voc_navigation_bar ...
+2018.11.01 14:30:08 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:30:08 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:30:08 - Exception: retries = 0
+2018.11.01 14:30:08 - Exception: time_to_wait = 20
+2018.11.01 14:30:28 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:30:28 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:30:28 - Exception: retries = 1
+2018.11.01 14:30:28 - Exception: time_to_wait = 20
+2018.11.01 14:30:48 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:30:48 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:30:48 - Exception: retries = 2
+2018.11.01 14:30:48 - Exception: time_to_wait = 20
+2018.11.01 14:31:08 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:31:08 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:31:08 - Exception: retries = 3
+2018.11.01 14:31:08 - Exception: time_to_wait = 20
+2018.11.01 14:31:28 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:31:28 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:31:28 - Exception: retries = 4
+2018.11.01 14:31:28 - Exception: time_to_wait = 20
+2018.11.01 14:31:48 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:31:48 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:31:48 - Exception: retries = 5
+2018.11.01 14:31:48 - Exception: time_to_wait = 20
+2018.11.01 14:32:08 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:32:08 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:32:08 - Exception: retries = 6
+2018.11.01 14:32:08 - Exception: raise Exception
+
+>>>StandardError, ScriptError<<<
+
+bck: ["D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:205:in `block in setup'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:318:in `block in load_link'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:93:in `block in timeout'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `block in catch'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:108:in `timeout'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:315:in `load_link'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:205:in `setup'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:278:in `run_fixture_callback'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:266:in `block in create_fixtures_runner'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:270:in `block in create_fixtures_runner'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:251:in `run_fixture'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:286:in `run_setup'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testcase.rb:497:in `block in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testcase.rb:496:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testcase.rb:496:in `run'", "D:/RubyExamples/VoC_scripts/test_case_run_method.rb:10:in `run'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:175:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:124:in `run_test'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:53:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:124:in `run_test'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:53:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:67:in `run_suite'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:45:in `block (2 levels) in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:102:in `with_listener'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:41:in `block in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:39:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:39:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunner.rb:40:in `start_mediator'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunner.rb:25:in `start'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnerutilities.rb:24:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:435:in `block in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:491:in `change_work_directory'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:434:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:62:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit.rb:502:in `block (2 levels) in <top (required)>'"]
+
+>>>StandardError, ScriptError<<<
+
+bck: ["D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:318:in `block in load_link'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:93:in `block in timeout'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `block in catch'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:108:in `timeout'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:315:in `load_link'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:205:in `setup'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:278:in `run_fixture_callback'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:266:in `block in create_fixtures_runner'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:270:in `block in create_fixtures_runner'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:251:in `run_fixture'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:286:in `run_setup'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testcase.rb:497:in `block in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testcase.rb:496:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testcase.rb:496:in `run'", "D:/RubyExamples/VoC_scripts/test_case_run_method.rb:10:in `run'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:175:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:124:in `run_test'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:53:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:124:in `run_test'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:53:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:67:in `run_suite'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:45:in `block (2 levels) in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:102:in `with_listener'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:41:in `block in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:39:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:39:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunner.rb:40:in `start_mediator'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunner.rb:25:in `start'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnerutilities.rb:24:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:435:in `block in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:491:in `change_work_directory'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:434:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:62:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit.rb:502:in `block (2 levels) in <top (required)>'"]
+E
+===============================================================================
+Error: test_voc_navigation_bar(TestExample): NameError: uninitialized class variable @@b in TestExample
+D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:93:in `block in timeout'
+D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `block in catch'
+D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `catch'
+D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `catch'
+D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:108:in `timeout'
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:315:in `load_link'
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:205:in `setup'
+D:/RubyExamples/VoC_scripts/test_case_run_method.rb:10:in `run'
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:175:in `run'
+===============================================================================
+2018.11.01 14:32:08 - TestExample.teardown: terminating TestExample.test_voc_navigation_bar ...
+2018.11.01 14:32:08 - TestExample.teardown: FAIL
+E
+===============================================================================
+Error: test_voc_navigation_bar(TestExample): NameError: uninitialized class variable @@b in TestExample
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:236:in `teardown'
+D:/RubyExamples/VoC_scripts/test_case_run_method.rb:10:in `run'
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:175:in `run'
+===============================================================================
+E
+===============================================================================
+Error: TestExample: NameError: uninitialized class variable @@b in TestExample
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:150:in `shutdown'
+     147: 
+     148:     def shutdown
+     149:       time = Time.new
+  => 150:       puts "#{time.strftime('%Y.%m.%d %H:%M:%S')} - #{self.name}.#{__method__.to_s}: @@browser = #{@@browser} --- @@b = #{@@b}\n"
+     151:       #puts "#{time.strftime('%Y.%m.%d %H:%M:%S')} - #{self.to_s}.#{__method__.to_s}: @@browser = #{@@browser} --- @@b = #{@@b}\n"
+     152: 
+     153:       @@b.close
+===============================================================================
+
+Finished in 124.075525 seconds.
+-------------------------------------------------------------------------------
+1 tests, 0 assertions, 0 failures, 4 errors, 0 pendings, 0 omissions, 0 notifications
+0% passed
+-------------------------------------------------------------------------------
+0.01 tests/s, 0.00 assertions/s
+
+D:\RubyExamples\VoC_scripts>echo "End File2" 
+"End File2"
+
+D:\RubyExamples\VoC_scripts>echo "--------------------------------------------------------------------------------------------------------" 
+"--------------------------------------------------------------------------------------------------------"
+
+D:\RubyExamples\VoC_scripts>echo "Start File3" 
+"Start File3"
+
+D:\RubyExamples\VoC_scripts>D:\Software\Ruby24-x64\bin\ruby.exe D:\RubyExamples\VoC_scripts\JenkinsTest\test_case_fw_VoC_toolbox_tests_filter.rb 
+Test: Ã„Ã–ÃœÃ¤Ã¶Ã¼ÃŸ
+2018.11.01 14:32:08 - START TESTING . . .
+Test: Ã„Ã–ÃœÃ¤Ã¶Ã¼ÃŸ
+Test: Ã„Ã–ÃœÃ¤Ã¶Ã¼ÃŸ
+Loaded suite D:/RubyExamples/VoC_scripts/JenkinsTest/test_case_fw_VoC_toolbox_tests_filter
+Started
+Browser: firefox
+2018-11-01 14:32:10 WARN Selenium [DEPRECATION] :timeout= is deprecated. Use #read_timeout= and #open_timeout= instead.
+2018.11.01 14:32:10 - TestExample.startup: @@client.timeout = 
+E
+===============================================================================
+Error: TestExample: Selenium::WebDriver::Error::UnknownError: newSession
+stack backtrace:
+   0:           0x4bb74f - <no info>
+   1:           0x4bbea9 - <no info>
+   2:           0x43ce8d - <no info>
+   3:           0x44ce14 - <no info>
+   4:           0x44944a - <no info>
+   5:           0x4203e1 - <no info>
+   6:           0x407dc7 - <no info>
+   7:           0x6d95b9 - <no info>
+   8:           0x4173a7 - <no info>
+   9:           0x6d38b3 - <no info>
+  10:     0x7ffc2ca93034 - BaseThreadInitThunk
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/response.rb:69:in `assert_ok'
+     66:         private
+     67: 
+     68:         def assert_ok
+  => 69:           e = error
+     70:           raise e if e
+     71:           return unless @code.nil? || @code >= 400
+     72:           raise Error::ServerError, self
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/response.rb:32:in `initialize'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/http/common.rb:84:in `new'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/http/common.rb:84:in `create_response'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/http/default.rb:104:in `request'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/http/common.rb:62:in `call'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/bridge.rb:164:in `execute'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/bridge.rb:97:in `create_session'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/firefox/marionette/driver.rb:50:in `initialize'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/firefox/driver.rb:31:in `new'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/firefox/driver.rb:31:in `new'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/common/driver.rb:52:in `for'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver.rb:86:in `for'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/watir-6.10.3/lib/watir/browser.rb:48:in `initialize'
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:113:in `new'
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:113:in `startup'
+===============================================================================
+2018.11.01 14:32:14 - TestExample.setup: running TestExample.test_voc_reporting_dashboard ...
+2018.11.01 14:32:14 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:32:14 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:32:14 - Exception: retries = 0
+2018.11.01 14:32:14 - Exception: time_to_wait = 20
+2018.11.01 14:32:34 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:32:34 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:32:34 - Exception: retries = 1
+2018.11.01 14:32:34 - Exception: time_to_wait = 20
+2018.11.01 14:32:54 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:32:54 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:32:54 - Exception: retries = 2
+2018.11.01 14:32:54 - Exception: time_to_wait = 20
+2018.11.01 14:33:14 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:33:14 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:33:14 - Exception: retries = 3
+2018.11.01 14:33:14 - Exception: time_to_wait = 20
+2018.11.01 14:33:34 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:33:34 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:33:34 - Exception: retries = 4
+2018.11.01 14:33:34 - Exception: time_to_wait = 20
+2018.11.01 14:33:54 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:33:54 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:33:54 - Exception: retries = 5
+2018.11.01 14:33:54 - Exception: time_to_wait = 20
+2018.11.01 14:34:14 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:34:14 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:34:14 - Exception: retries = 6
+2018.11.01 14:34:14 - Exception: raise Exception
+
+>>>StandardError, ScriptError<<<
+
+bck: ["D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:205:in `block in setup'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:318:in `block in load_link'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:93:in `block in timeout'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `block in catch'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:108:in `timeout'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:315:in `load_link'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:205:in `setup'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:278:in `run_fixture_callback'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:266:in `block in create_fixtures_runner'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:270:in `block in create_fixtures_runner'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:251:in `run_fixture'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:286:in `run_setup'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testcase.rb:497:in `block in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testcase.rb:496:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testcase.rb:496:in `run'", "D:/RubyExamples/VoC_scripts/test_case_run_method.rb:10:in `run'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:175:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:124:in `run_test'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:53:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:124:in `run_test'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:53:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:67:in `run_suite'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:45:in `block (2 levels) in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:102:in `with_listener'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:41:in `block in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:39:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:39:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunner.rb:40:in `start_mediator'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunner.rb:25:in `start'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnerutilities.rb:24:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:435:in `block in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:491:in `change_work_directory'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:434:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:62:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit.rb:502:in `block (2 levels) in <top (required)>'"]
+
+>>>StandardError, ScriptError<<<
+
+bck: ["D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:318:in `block in load_link'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:93:in `block in timeout'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `block in catch'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:108:in `timeout'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:315:in `load_link'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:205:in `setup'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:278:in `run_fixture_callback'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:266:in `block in create_fixtures_runner'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:270:in `block in create_fixtures_runner'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:251:in `run_fixture'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:286:in `run_setup'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testcase.rb:497:in `block in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testcase.rb:496:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testcase.rb:496:in `run'", "D:/RubyExamples/VoC_scripts/test_case_run_method.rb:10:in `run'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:175:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:124:in `run_test'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:53:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:124:in `run_test'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:53:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:67:in `run_suite'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:45:in `block (2 levels) in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:102:in `with_listener'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:41:in `block in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:39:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:39:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunner.rb:40:in `start_mediator'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunner.rb:25:in `start'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnerutilities.rb:24:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:435:in `block in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:491:in `change_work_directory'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:434:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:62:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit.rb:502:in `block (2 levels) in <top (required)>'"]
+E
+===============================================================================
+Error: test_voc_reporting_dashboard(TestExample): NameError: uninitialized class variable @@b in TestExample
+D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:93:in `block in timeout'
+D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `block in catch'
+D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `catch'
+D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `catch'
+D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:108:in `timeout'
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:315:in `load_link'
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:205:in `setup'
+D:/RubyExamples/VoC_scripts/test_case_run_method.rb:10:in `run'
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:175:in `run'
+===============================================================================
+2018.11.01 14:34:14 - TestExample.teardown: terminating TestExample.test_voc_reporting_dashboard ...
+2018.11.01 14:34:14 - TestExample.teardown: FAIL
+E
+===============================================================================
+Error: test_voc_reporting_dashboard(TestExample): NameError: uninitialized class variable @@b in TestExample
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:236:in `teardown'
+D:/RubyExamples/VoC_scripts/test_case_run_method.rb:10:in `run'
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:175:in `run'
+===============================================================================
+E
+===============================================================================
+Error: TestExample: NameError: uninitialized class variable @@b in TestExample
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:150:in `shutdown'
+     147: 
+     148:     def shutdown
+     149:       time = Time.new
+  => 150:       puts "#{time.strftime('%Y.%m.%d %H:%M:%S')} - #{self.name}.#{__method__.to_s}: @@browser = #{@@browser} --- @@b = #{@@b}\n"
+     151:       #puts "#{time.strftime('%Y.%m.%d %H:%M:%S')} - #{self.to_s}.#{__method__.to_s}: @@browser = #{@@browser} --- @@b = #{@@b}\n"
+     152: 
+     153:       @@b.close
+===============================================================================
+
+Finished in 124.102711 seconds.
+-------------------------------------------------------------------------------
+1 tests, 0 assertions, 0 failures, 4 errors, 0 pendings, 0 omissions, 0 notifications
+0% passed
+-------------------------------------------------------------------------------
+0.01 tests/s, 0.00 assertions/s
+
+D:\RubyExamples\VoC_scripts>echo "End File3" 
+"End File3"
+
+D:\RubyExamples\VoC_scripts>echo "--------------------------------------------------------------------------------------------------------" 
+"--------------------------------------------------------------------------------------------------------"
+
+D:\RubyExamples\VoC_scripts>echo "Start File4" 
+"Start File4"
+
+D:\RubyExamples\VoC_scripts>D:\Software\Ruby24-x64\bin\ruby.exe D:\RubyExamples\VoC_scripts\JenkinsTest\test_case_fw_VoC_toolbox_tests_filter_FAIL.rb 
+Test: Ã„Ã–ÃœÃ¤Ã¶Ã¼ÃŸ
+2018.11.01 14:34:14 - START TESTING . . .
+Test: Ã„Ã–ÃœÃ¤Ã¶Ã¼ÃŸ
+Test: Ã„Ã–ÃœÃ¤Ã¶Ã¼ÃŸ
+Loaded suite D:/RubyExamples/VoC_scripts/JenkinsTest/test_case_fw_VoC_toolbox_tests_filter_FAIL
+Started
+Browser: firefox
+2018-11-01 14:34:17 WARN Selenium [DEPRECATION] :timeout= is deprecated. Use #read_timeout= and #open_timeout= instead.
+2018.11.01 14:34:16 - TestExample.startup: @@client.timeout = 
+E
+===============================================================================
+Error: TestExample: Selenium::WebDriver::Error::UnknownError: newSession
+stack backtrace:
+   0:           0x4bb74f - <no info>
+   1:           0x4bbea9 - <no info>
+   2:           0x43ce8d - <no info>
+   3:           0x44ce14 - <no info>
+   4:           0x44944a - <no info>
+   5:           0x4203e1 - <no info>
+   6:           0x407dc7 - <no info>
+   7:           0x6d95b9 - <no info>
+   8:           0x4173a7 - <no info>
+   9:           0x6d38b3 - <no info>
+  10:     0x7ffc2ca93034 - BaseThreadInitThunk
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/response.rb:69:in `assert_ok'
+     66:         private
+     67: 
+     68:         def assert_ok
+  => 69:           e = error
+     70:           raise e if e
+     71:           return unless @code.nil? || @code >= 400
+     72:           raise Error::ServerError, self
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/response.rb:32:in `initialize'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/http/common.rb:84:in `new'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/http/common.rb:84:in `create_response'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/http/default.rb:104:in `request'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/http/common.rb:62:in `call'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/bridge.rb:164:in `execute'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/bridge.rb:97:in `create_session'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/firefox/marionette/driver.rb:50:in `initialize'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/firefox/driver.rb:31:in `new'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/firefox/driver.rb:31:in `new'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/common/driver.rb:52:in `for'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver.rb:86:in `for'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/watir-6.10.3/lib/watir/browser.rb:48:in `initialize'
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:113:in `new'
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:113:in `startup'
+===============================================================================
+2018.11.01 14:34:19 - TestExample.setup: running TestExample.test_voc_reporting_dashboard ...
+2018.11.01 14:34:19 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:34:19 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:34:19 - Exception: retries = 0
+2018.11.01 14:34:19 - Exception: time_to_wait = 20
+2018.11.01 14:34:39 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:34:39 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:34:39 - Exception: retries = 1
+2018.11.01 14:34:39 - Exception: time_to_wait = 20
+2018.11.01 14:34:59 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:34:59 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:34:59 - Exception: retries = 2
+2018.11.01 14:34:59 - Exception: time_to_wait = 20
+2018.11.01 14:35:19 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:35:19 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:35:19 - Exception: retries = 3
+2018.11.01 14:35:19 - Exception: time_to_wait = 20
+2018.11.01 14:35:39 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:35:39 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:35:39 - Exception: retries = 4
+2018.11.01 14:35:39 - Exception: time_to_wait = 20
+2018.11.01 14:35:59 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:35:59 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:35:59 - Exception: retries = 5
+2018.11.01 14:35:59 - Exception: time_to_wait = 20
+2018.11.01 14:36:19 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:36:19 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:36:19 - Exception: retries = 6
+2018.11.01 14:36:19 - Exception: raise Exception
+
+>>>StandardError, ScriptError<<<
+
+bck: ["D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:205:in `block in setup'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:318:in `block in load_link'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:93:in `block in timeout'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `block in catch'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:108:in `timeout'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:315:in `load_link'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:205:in `setup'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:278:in `run_fixture_callback'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:266:in `block in create_fixtures_runner'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:270:in `block in create_fixtures_runner'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:251:in `run_fixture'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:286:in `run_setup'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testcase.rb:497:in `block in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testcase.rb:496:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testcase.rb:496:in `run'", "D:/RubyExamples/VoC_scripts/test_case_run_method.rb:10:in `run'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:175:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:124:in `run_test'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:53:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:124:in `run_test'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:53:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:67:in `run_suite'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:45:in `block (2 levels) in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:102:in `with_listener'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:41:in `block in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:39:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:39:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunner.rb:40:in `start_mediator'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunner.rb:25:in `start'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnerutilities.rb:24:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:435:in `block in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:491:in `change_work_directory'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:434:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:62:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit.rb:502:in `block (2 levels) in <top (required)>'"]
+
+>>>StandardError, ScriptError<<<
+
+bck: ["D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:318:in `block in load_link'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:93:in `block in timeout'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `block in catch'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:108:in `timeout'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:315:in `load_link'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:205:in `setup'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:278:in `run_fixture_callback'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:266:in `block in create_fixtures_runner'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:270:in `block in create_fixtures_runner'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:251:in `run_fixture'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:286:in `run_setup'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testcase.rb:497:in `block in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testcase.rb:496:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testcase.rb:496:in `run'", "D:/RubyExamples/VoC_scripts/test_case_run_method.rb:10:in `run'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:175:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:124:in `run_test'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:53:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:124:in `run_test'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:53:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:67:in `run_suite'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:45:in `block (2 levels) in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:102:in `with_listener'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:41:in `block in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:39:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:39:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunner.rb:40:in `start_mediator'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunner.rb:25:in `start'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnerutilities.rb:24:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:435:in `block in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:491:in `change_work_directory'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:434:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:62:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit.rb:502:in `block (2 levels) in <top (required)>'"]
+E
+===============================================================================
+Error: test_voc_reporting_dashboard(TestExample): NameError: uninitialized class variable @@b in TestExample
+D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:93:in `block in timeout'
+D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `block in catch'
+D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `catch'
+D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `catch'
+D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:108:in `timeout'
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:315:in `load_link'
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:205:in `setup'
+D:/RubyExamples/VoC_scripts/test_case_run_method.rb:10:in `run'
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:175:in `run'
+===============================================================================
+2018.11.01 14:36:19 - TestExample.teardown: terminating TestExample.test_voc_reporting_dashboard ...
+2018.11.01 14:36:19 - TestExample.teardown: FAIL
+E
+===============================================================================
+Error: test_voc_reporting_dashboard(TestExample): NameError: uninitialized class variable @@b in TestExample
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:236:in `teardown'
+D:/RubyExamples/VoC_scripts/test_case_run_method.rb:10:in `run'
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:175:in `run'
+===============================================================================
+E
+===============================================================================
+Error: TestExample: NameError: uninitialized class variable @@b in TestExample
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:150:in `shutdown'
+     147: 
+     148:     def shutdown
+     149:       time = Time.new
+  => 150:       puts "#{time.strftime('%Y.%m.%d %H:%M:%S')} - #{self.name}.#{__method__.to_s}: @@browser = #{@@browser} --- @@b = #{@@b}\n"
+     151:       #puts "#{time.strftime('%Y.%m.%d %H:%M:%S')} - #{self.to_s}.#{__method__.to_s}: @@browser = #{@@browser} --- @@b = #{@@b}\n"
+     152: 
+     153:       @@b.close
+===============================================================================
+
+Finished in 122.996723 seconds.
+-------------------------------------------------------------------------------
+1 tests, 0 assertions, 0 failures, 4 errors, 0 pendings, 0 omissions, 0 notifications
+0% passed
+-------------------------------------------------------------------------------
+0.01 tests/s, 0.00 assertions/s
+
+D:\RubyExamples\VoC_scripts>echo "End File4" 
+"End File4"
+
+D:\RubyExamples\VoC_scripts>echo "--------------------------------------------------------------------------------------------------------" 
+"--------------------------------------------------------------------------------------------------------"
+
+D:\RubyExamples\VoC_scripts>echo "Start File5" 
+"Start File5"
+
+D:\RubyExamples\VoC_scripts>D:\Software\Ruby24-x64\bin\ruby.exe D:\RubyExamples\VoC_scripts\JenkinsTest\test_case_fw_VoC_toolbox_tests_imd_voc_reporting.rb 
+Test: Ã„Ã–ÃœÃ¤Ã¶Ã¼ÃŸ
+2018.11.01 14:36:20 - START TESTING . . .
+Test: Ã„Ã–ÃœÃ¤Ã¶Ã¼ÃŸ
+Test: Ã„Ã–ÃœÃ¤Ã¶Ã¼ÃŸ
+Loaded suite D:/RubyExamples/VoC_scripts/JenkinsTest/test_case_fw_VoC_toolbox_tests_imd_voc_reporting
+Started
+Browser: firefox
+2018-11-01 14:36:22 WARN Selenium [DEPRECATION] :timeout= is deprecated. Use #read_timeout= and #open_timeout= instead.
+2018.11.01 14:36:22 - TestExample.startup: @@client.timeout = 
+E
+===============================================================================
+Error: TestExample: Selenium::WebDriver::Error::UnknownError: newSession
+stack backtrace:
+   0:           0x4bb74f - <no info>
+   1:           0x4bbea9 - <no info>
+   2:           0x43ce8d - <no info>
+   3:           0x44ce14 - <no info>
+   4:           0x44944a - <no info>
+   5:           0x4203e1 - <no info>
+   6:           0x407dc7 - <no info>
+   7:           0x6d95b9 - <no info>
+   8:           0x4173a7 - <no info>
+   9:           0x6d38b3 - <no info>
+  10:     0x7ffc2ca93034 - BaseThreadInitThunk
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/response.rb:69:in `assert_ok'
+     66:         private
+     67: 
+     68:         def assert_ok
+  => 69:           e = error
+     70:           raise e if e
+     71:           return unless @code.nil? || @code >= 400
+     72:           raise Error::ServerError, self
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/response.rb:32:in `initialize'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/http/common.rb:84:in `new'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/http/common.rb:84:in `create_response'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/http/default.rb:104:in `request'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/http/common.rb:62:in `call'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/bridge.rb:164:in `execute'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/bridge.rb:97:in `create_session'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/firefox/marionette/driver.rb:50:in `initialize'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/firefox/driver.rb:31:in `new'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/firefox/driver.rb:31:in `new'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/common/driver.rb:52:in `for'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver.rb:86:in `for'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/watir-6.10.3/lib/watir/browser.rb:48:in `initialize'
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:113:in `new'
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:113:in `startup'
+===============================================================================
+2018.11.01 14:36:26 - TestExample.setup: running TestExample.test_issue_management_dashboard ...
+2018.11.01 14:36:26 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:36:26 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:36:26 - Exception: retries = 0
+2018.11.01 14:36:26 - Exception: time_to_wait = 20
+2018.11.01 14:36:46 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:36:46 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:36:46 - Exception: retries = 1
+2018.11.01 14:36:46 - Exception: time_to_wait = 20
+2018.11.01 14:37:06 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:37:06 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:37:06 - Exception: retries = 2
+2018.11.01 14:37:06 - Exception: time_to_wait = 20
+2018.11.01 14:37:26 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:37:26 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:37:26 - Exception: retries = 3
+2018.11.01 14:37:26 - Exception: time_to_wait = 20
+2018.11.01 14:37:46 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:37:46 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:37:46 - Exception: retries = 4
+2018.11.01 14:37:46 - Exception: time_to_wait = 20
+2018.11.01 14:38:06 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:38:06 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:38:06 - Exception: retries = 5
+2018.11.01 14:38:06 - Exception: time_to_wait = 20
+2018.11.01 14:38:26 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:38:26 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:38:26 - Exception: retries = 6
+2018.11.01 14:38:26 - Exception: raise Exception
+
+>>>StandardError, ScriptError<<<
+
+bck: ["D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:205:in `block in setup'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:318:in `block in load_link'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:93:in `block in timeout'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `block in catch'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:108:in `timeout'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:315:in `load_link'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:205:in `setup'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:278:in `run_fixture_callback'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:266:in `block in create_fixtures_runner'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:270:in `block in create_fixtures_runner'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:251:in `run_fixture'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:286:in `run_setup'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testcase.rb:497:in `block in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testcase.rb:496:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testcase.rb:496:in `run'", "D:/RubyExamples/VoC_scripts/test_case_run_method.rb:10:in `run'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:175:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:124:in `run_test'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:53:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:124:in `run_test'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:53:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:67:in `run_suite'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:45:in `block (2 levels) in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:102:in `with_listener'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:41:in `block in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:39:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:39:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunner.rb:40:in `start_mediator'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunner.rb:25:in `start'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnerutilities.rb:24:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:435:in `block in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:491:in `change_work_directory'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:434:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:62:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit.rb:502:in `block (2 levels) in <top (required)>'"]
+
+>>>StandardError, ScriptError<<<
+
+bck: ["D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:318:in `block in load_link'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:93:in `block in timeout'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `block in catch'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:108:in `timeout'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:315:in `load_link'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:205:in `setup'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:278:in `run_fixture_callback'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:266:in `block in create_fixtures_runner'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:270:in `block in create_fixtures_runner'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:251:in `run_fixture'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:286:in `run_setup'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testcase.rb:497:in `block in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testcase.rb:496:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testcase.rb:496:in `run'", "D:/RubyExamples/VoC_scripts/test_case_run_method.rb:10:in `run'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:175:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:124:in `run_test'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:53:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:124:in `run_test'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:53:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:67:in `run_suite'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:45:in `block (2 levels) in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:102:in `with_listener'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:41:in `block in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:39:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:39:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunner.rb:40:in `start_mediator'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunner.rb:25:in `start'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnerutilities.rb:24:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:435:in `block in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:491:in `change_work_directory'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:434:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:62:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit.rb:502:in `block (2 levels) in <top (required)>'"]
+E
+===============================================================================
+Error: test_issue_management_dashboard(TestExample): NameError: uninitialized class variable @@b in TestExample
+D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:93:in `block in timeout'
+D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `block in catch'
+D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `catch'
+D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `catch'
+D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:108:in `timeout'
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:315:in `load_link'
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:205:in `setup'
+D:/RubyExamples/VoC_scripts/test_case_run_method.rb:10:in `run'
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:175:in `run'
+===============================================================================
+2018.11.01 14:38:26 - TestExample.teardown: terminating TestExample.test_issue_management_dashboard ...
+2018.11.01 14:38:26 - TestExample.teardown: FAIL
+E
+===============================================================================
+Error: test_issue_management_dashboard(TestExample): NameError: uninitialized class variable @@b in TestExample
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:236:in `teardown'
+D:/RubyExamples/VoC_scripts/test_case_run_method.rb:10:in `run'
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:175:in `run'
+===============================================================================
+E
+===============================================================================
+Error: TestExample: NameError: uninitialized class variable @@b in TestExample
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:150:in `shutdown'
+     147: 
+     148:     def shutdown
+     149:       time = Time.new
+  => 150:       puts "#{time.strftime('%Y.%m.%d %H:%M:%S')} - #{self.name}.#{__method__.to_s}: @@browser = #{@@browser} --- @@b = #{@@b}\n"
+     151:       #puts "#{time.strftime('%Y.%m.%d %H:%M:%S')} - #{self.to_s}.#{__method__.to_s}: @@browser = #{@@browser} --- @@b = #{@@b}\n"
+     152: 
+     153:       @@b.close
+===============================================================================
+
+Finished in 124.145874 seconds.
+-------------------------------------------------------------------------------
+1 tests, 0 assertions, 0 failures, 4 errors, 0 pendings, 0 omissions, 0 notifications
+0% passed
+-------------------------------------------------------------------------------
+0.01 tests/s, 0.00 assertions/s
+
+D:\RubyExamples\VoC_scripts>echo "End File5" 
+"End File5"
+
+D:\RubyExamples\VoC_scripts>echo "--------------------------------------------------------------------------------------------------------" 
+"--------------------------------------------------------------------------------------------------------"
+
+D:\RubyExamples\VoC_scripts>echo "Start File6" 
+"Start File6"
+
+D:\RubyExamples\VoC_scripts>D:\Software\Ruby24-x64\bin\ruby.exe D:\RubyExamples\VoC_scripts\JenkinsTest\test_case_fw_VoC_toolbox_tests_info_export_panel.rb 
+Test: Ã„Ã–ÃœÃ¤Ã¶Ã¼ÃŸ
+2018.11.01 14:38:26 - START TESTING . . .
+Test: Ã„Ã–ÃœÃ¤Ã¶Ã¼ÃŸ
+Test: Ã„Ã–ÃœÃ¤Ã¶Ã¼ÃŸ
+Loaded suite D:/RubyExamples/VoC_scripts/JenkinsTest/test_case_fw_VoC_toolbox_tests_info_export_panel
+Started
+Browser: firefox
+2018-11-01 14:38:29 WARN Selenium [DEPRECATION] :timeout= is deprecated. Use #read_timeout= and #open_timeout= instead.
+2018.11.01 14:38:28 - TestExample.startup: @@client.timeout = 
+E
+===============================================================================
+Error: TestExample: Selenium::WebDriver::Error::UnknownError: newSession
+stack backtrace:
+   0:           0x4bb74f - <no info>
+   1:           0x4bbea9 - <no info>
+   2:           0x43ce8d - <no info>
+   3:           0x44ce14 - <no info>
+   4:           0x44944a - <no info>
+   5:           0x4203e1 - <no info>
+   6:           0x407dc7 - <no info>
+   7:           0x6d95b9 - <no info>
+   8:           0x4173a7 - <no info>
+   9:           0x6d38b3 - <no info>
+  10:     0x7ffc2ca93034 - BaseThreadInitThunk
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/response.rb:69:in `assert_ok'
+     66:         private
+     67: 
+     68:         def assert_ok
+  => 69:           e = error
+     70:           raise e if e
+     71:           return unless @code.nil? || @code >= 400
+     72:           raise Error::ServerError, self
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/response.rb:32:in `initialize'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/http/common.rb:84:in `new'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/http/common.rb:84:in `create_response'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/http/default.rb:104:in `request'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/http/common.rb:62:in `call'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/bridge.rb:164:in `execute'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/bridge.rb:97:in `create_session'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/firefox/marionette/driver.rb:50:in `initialize'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/firefox/driver.rb:31:in `new'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/firefox/driver.rb:31:in `new'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/common/driver.rb:52:in `for'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver.rb:86:in `for'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/watir-6.10.3/lib/watir/browser.rb:48:in `initialize'
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:113:in `new'
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:113:in `startup'
+===============================================================================
+2018.11.01 14:38:32 - TestExample.setup: running TestExample.test_voc_reporting_dashboard ...
+2018.11.01 14:38:32 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:38:32 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:38:32 - Exception: retries = 0
+2018.11.01 14:38:32 - Exception: time_to_wait = 20
+2018.11.01 14:38:52 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:38:52 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:38:52 - Exception: retries = 1
+2018.11.01 14:38:52 - Exception: time_to_wait = 20
+2018.11.01 14:39:12 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:39:12 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:39:12 - Exception: retries = 2
+2018.11.01 14:39:12 - Exception: time_to_wait = 20
+2018.11.01 14:39:32 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:39:32 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:39:32 - Exception: retries = 3
+2018.11.01 14:39:32 - Exception: time_to_wait = 20
+2018.11.01 14:39:52 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:39:52 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:39:52 - Exception: retries = 4
+2018.11.01 14:39:52 - Exception: time_to_wait = 20
+2018.11.01 14:40:12 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:40:12 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:40:12 - Exception: retries = 5
+2018.11.01 14:40:12 - Exception: time_to_wait = 20
+2018.11.01 14:40:32 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:40:32 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:40:32 - Exception: retries = 6
+2018.11.01 14:40:32 - Exception: raise Exception
+
+>>>StandardError, ScriptError<<<
+
+bck: ["D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:205:in `block in setup'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:318:in `block in load_link'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:93:in `block in timeout'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `block in catch'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:108:in `timeout'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:315:in `load_link'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:205:in `setup'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:278:in `run_fixture_callback'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:266:in `block in create_fixtures_runner'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:270:in `block in create_fixtures_runner'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:251:in `run_fixture'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:286:in `run_setup'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testcase.rb:497:in `block in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testcase.rb:496:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testcase.rb:496:in `run'", "D:/RubyExamples/VoC_scripts/test_case_run_method.rb:10:in `run'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:175:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:124:in `run_test'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:53:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:124:in `run_test'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:53:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:67:in `run_suite'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:45:in `block (2 levels) in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:102:in `with_listener'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:41:in `block in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:39:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:39:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunner.rb:40:in `start_mediator'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunner.rb:25:in `start'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnerutilities.rb:24:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:435:in `block in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:491:in `change_work_directory'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:434:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:62:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit.rb:502:in `block (2 levels) in <top (required)>'"]
+
+>>>StandardError, ScriptError<<<
+
+bck: ["D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:318:in `block in load_link'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:93:in `block in timeout'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `block in catch'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:108:in `timeout'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:315:in `load_link'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:205:in `setup'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:278:in `run_fixture_callback'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:266:in `block in create_fixtures_runner'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:270:in `block in create_fixtures_runner'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:251:in `run_fixture'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:286:in `run_setup'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testcase.rb:497:in `block in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testcase.rb:496:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testcase.rb:496:in `run'", "D:/RubyExamples/VoC_scripts/test_case_run_method.rb:10:in `run'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:175:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:124:in `run_test'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:53:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:124:in `run_test'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:53:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:67:in `run_suite'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:45:in `block (2 levels) in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:102:in `with_listener'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:41:in `block in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:39:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:39:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunner.rb:40:in `start_mediator'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunner.rb:25:in `start'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnerutilities.rb:24:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:435:in `block in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:491:in `change_work_directory'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:434:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:62:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit.rb:502:in `block (2 levels) in <top (required)>'"]
+E
+===============================================================================
+Error: test_voc_reporting_dashboard(TestExample): NameError: uninitialized class variable @@b in TestExample
+D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:93:in `block in timeout'
+D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `block in catch'
+D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `catch'
+D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `catch'
+D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:108:in `timeout'
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:315:in `load_link'
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:205:in `setup'
+D:/RubyExamples/VoC_scripts/test_case_run_method.rb:10:in `run'
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:175:in `run'
+===============================================================================
+2018.11.01 14:40:32 - TestExample.teardown: terminating TestExample.test_voc_reporting_dashboard ...
+2018.11.01 14:40:32 - TestExample.teardown: FAIL
+E
+===============================================================================
+Error: test_voc_reporting_dashboard(TestExample): NameError: uninitialized class variable @@b in TestExample
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:236:in `teardown'
+D:/RubyExamples/VoC_scripts/test_case_run_method.rb:10:in `run'
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:175:in `run'
+===============================================================================
+E
+===============================================================================
+Error: TestExample: NameError: uninitialized class variable @@b in TestExample
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:150:in `shutdown'
+     147: 
+     148:     def shutdown
+     149:       time = Time.new
+  => 150:       puts "#{time.strftime('%Y.%m.%d %H:%M:%S')} - #{self.name}.#{__method__.to_s}: @@browser = #{@@browser} --- @@b = #{@@b}\n"
+     151:       #puts "#{time.strftime('%Y.%m.%d %H:%M:%S')} - #{self.to_s}.#{__method__.to_s}: @@browser = #{@@browser} --- @@b = #{@@b}\n"
+     152: 
+     153:       @@b.close
+===============================================================================
+
+Finished in 124.157675 seconds.
+-------------------------------------------------------------------------------
+1 tests, 0 assertions, 0 failures, 4 errors, 0 pendings, 0 omissions, 0 notifications
+0% passed
+-------------------------------------------------------------------------------
+0.01 tests/s, 0.00 assertions/s
+
+D:\RubyExamples\VoC_scripts>echo "End File6" 
+"End File6"
+
+D:\RubyExamples\VoC_scripts>echo "--------------------------------------------------------------------------------------------------------" 
+"--------------------------------------------------------------------------------------------------------"
+
+D:\RubyExamples\VoC_scripts>echo "Start File7" 
+"Start File7"
+
+D:\RubyExamples\VoC_scripts>D:\Software\Ruby24-x64\bin\ruby.exe D:\RubyExamples\VoC_scripts\JenkinsTest\test_case_fw_VoC_toolbox_tests_navbar.rb 
+Test: Ã„Ã–ÃœÃ¤Ã¶Ã¼ÃŸ
+2018.11.01 14:40:33 - START TESTING . . .
+Test: Ã„Ã–ÃœÃ¤Ã¶Ã¼ÃŸ
+Test: Ã„Ã–ÃœÃ¤Ã¶Ã¼ÃŸ
+Loaded suite D:/RubyExamples/VoC_scripts/JenkinsTest/test_case_fw_VoC_toolbox_tests_navbar
+Started
+Browser: firefox
+2018-11-01 14:40:35 WARN Selenium [DEPRECATION] :timeout= is deprecated. Use #read_timeout= and #open_timeout= instead.
+2018.11.01 14:40:35 - TestExample.startup: @@client.timeout = 
+E
+===============================================================================
+Error: TestExample: Selenium::WebDriver::Error::UnknownError: newSession
+stack backtrace:
+   0:           0x4bb74f - <no info>
+   1:           0x4bbea9 - <no info>
+   2:           0x43ce8d - <no info>
+   3:           0x44ce14 - <no info>
+   4:           0x44944a - <no info>
+   5:           0x4203e1 - <no info>
+   6:           0x407dc7 - <no info>
+   7:           0x6d95b9 - <no info>
+   8:           0x4173a7 - <no info>
+   9:           0x6d38b3 - <no info>
+  10:     0x7ffc2ca93034 - BaseThreadInitThunk
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/response.rb:69:in `assert_ok'
+     66:         private
+     67: 
+     68:         def assert_ok
+  => 69:           e = error
+     70:           raise e if e
+     71:           return unless @code.nil? || @code >= 400
+     72:           raise Error::ServerError, self
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/response.rb:32:in `initialize'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/http/common.rb:84:in `new'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/http/common.rb:84:in `create_response'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/http/default.rb:104:in `request'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/http/common.rb:62:in `call'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/bridge.rb:164:in `execute'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/bridge.rb:97:in `create_session'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/firefox/marionette/driver.rb:50:in `initialize'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/firefox/driver.rb:31:in `new'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/firefox/driver.rb:31:in `new'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/common/driver.rb:52:in `for'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver.rb:86:in `for'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/watir-6.10.3/lib/watir/browser.rb:48:in `initialize'
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:113:in `new'
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:113:in `startup'
+===============================================================================
+2018.11.01 14:40:39 - TestExample.setup: running TestExample.test_voc_navigation_bar ...
+2018.11.01 14:40:39 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:40:39 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:40:39 - Exception: retries = 0
+2018.11.01 14:40:39 - Exception: time_to_wait = 20
+2018.11.01 14:40:59 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:40:59 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:40:59 - Exception: retries = 1
+2018.11.01 14:40:59 - Exception: time_to_wait = 20
+2018.11.01 14:41:19 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:41:19 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:41:19 - Exception: retries = 2
+2018.11.01 14:41:19 - Exception: time_to_wait = 20
+2018.11.01 14:41:39 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:41:39 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:41:39 - Exception: retries = 3
+2018.11.01 14:41:39 - Exception: time_to_wait = 20
+2018.11.01 14:41:59 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:41:59 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:41:59 - Exception: retries = 4
+2018.11.01 14:41:59 - Exception: time_to_wait = 20
+2018.11.01 14:42:19 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:42:19 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:42:19 - Exception: retries = 5
+2018.11.01 14:42:19 - Exception: time_to_wait = 20
+2018.11.01 14:42:39 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:42:39 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:42:39 - Exception: retries = 6
+2018.11.01 14:42:39 - Exception: raise Exception
+
+>>>StandardError, ScriptError<<<
+
+bck: ["D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:205:in `block in setup'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:318:in `block in load_link'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:93:in `block in timeout'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `block in catch'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:108:in `timeout'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:315:in `load_link'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:205:in `setup'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:278:in `run_fixture_callback'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:266:in `block in create_fixtures_runner'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:270:in `block in create_fixtures_runner'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:251:in `run_fixture'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:286:in `run_setup'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testcase.rb:497:in `block in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testcase.rb:496:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testcase.rb:496:in `run'", "D:/RubyExamples/VoC_scripts/test_case_run_method.rb:10:in `run'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:175:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:124:in `run_test'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:53:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:124:in `run_test'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:53:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:67:in `run_suite'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:45:in `block (2 levels) in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:102:in `with_listener'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:41:in `block in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:39:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:39:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunner.rb:40:in `start_mediator'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunner.rb:25:in `start'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnerutilities.rb:24:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:435:in `block in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:491:in `change_work_directory'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:434:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:62:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit.rb:502:in `block (2 levels) in <top (required)>'"]
+
+>>>StandardError, ScriptError<<<
+
+bck: ["D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:318:in `block in load_link'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:93:in `block in timeout'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `block in catch'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:108:in `timeout'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:315:in `load_link'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:205:in `setup'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:278:in `run_fixture_callback'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:266:in `block in create_fixtures_runner'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:270:in `block in create_fixtures_runner'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:251:in `run_fixture'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:286:in `run_setup'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testcase.rb:497:in `block in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testcase.rb:496:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testcase.rb:496:in `run'", "D:/RubyExamples/VoC_scripts/test_case_run_method.rb:10:in `run'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:175:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:124:in `run_test'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:53:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:124:in `run_test'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:53:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:67:in `run_suite'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:45:in `block (2 levels) in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:102:in `with_listener'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:41:in `block in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:39:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:39:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunner.rb:40:in `start_mediator'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunner.rb:25:in `start'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnerutilities.rb:24:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:435:in `block in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:491:in `change_work_directory'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:434:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:62:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit.rb:502:in `block (2 levels) in <top (required)>'"]
+E
+===============================================================================
+Error: test_voc_navigation_bar(TestExample): NameError: uninitialized class variable @@b in TestExample
+D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:93:in `block in timeout'
+D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `block in catch'
+D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `catch'
+D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `catch'
+D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:108:in `timeout'
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:315:in `load_link'
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:205:in `setup'
+D:/RubyExamples/VoC_scripts/test_case_run_method.rb:10:in `run'
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:175:in `run'
+===============================================================================
+2018.11.01 14:42:39 - TestExample.teardown: terminating TestExample.test_voc_navigation_bar ...
+2018.11.01 14:42:39 - TestExample.teardown: FAIL
+E
+===============================================================================
+Error: test_voc_navigation_bar(TestExample): NameError: uninitialized class variable @@b in TestExample
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:236:in `teardown'
+D:/RubyExamples/VoC_scripts/test_case_run_method.rb:10:in `run'
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:175:in `run'
+===============================================================================
+E
+===============================================================================
+Error: TestExample: NameError: uninitialized class variable @@b in TestExample
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:150:in `shutdown'
+     147: 
+     148:     def shutdown
+     149:       time = Time.new
+  => 150:       puts "#{time.strftime('%Y.%m.%d %H:%M:%S')} - #{self.name}.#{__method__.to_s}: @@browser = #{@@browser} --- @@b = #{@@b}\n"
+     151:       #puts "#{time.strftime('%Y.%m.%d %H:%M:%S')} - #{self.to_s}.#{__method__.to_s}: @@browser = #{@@browser} --- @@b = #{@@b}\n"
+     152: 
+     153:       @@b.close
+===============================================================================
+
+Finished in 124.139555 seconds.
+-------------------------------------------------------------------------------
+1 tests, 0 assertions, 0 failures, 4 errors, 0 pendings, 0 omissions, 0 notifications
+0% passed
+-------------------------------------------------------------------------------
+0.01 tests/s, 0.00 assertions/s
+
+D:\RubyExamples\VoC_scripts>echo "End File7" 
+"End File7"
+
+D:\RubyExamples\VoC_scripts>echo "--------------------------------------------------------------------------------------------------------" 
+"--------------------------------------------------------------------------------------------------------"
+
+D:\RubyExamples\VoC_scripts>echo "Start File8" 
+"Start File8"
+
+D:\RubyExamples\VoC_scripts>D:\Software\Ruby24-x64\bin\ruby.exe D:\RubyExamples\VoC_scripts\JenkinsTest\test_case_fw_VoC_toolbox_tests_table.rb 
+Test: Ã„Ã–ÃœÃ¤Ã¶Ã¼ÃŸ
+2018.11.01 14:42:39 - START TESTING . . .
+Test: Ã„Ã–ÃœÃ¤Ã¶Ã¼ÃŸ
+Test: Ã„Ã–ÃœÃ¤Ã¶Ã¼ÃŸ
+Loaded suite D:/RubyExamples/VoC_scripts/JenkinsTest/test_case_fw_VoC_toolbox_tests_table
+Started
+Browser: firefox
+2018-11-01 14:42:43 WARN Selenium [DEPRECATION] :timeout= is deprecated. Use #read_timeout= and #open_timeout= instead.
+2018.11.01 14:42:42 - TestExample.startup: @@client.timeout = 
+E
+===============================================================================
+Error: TestExample: Selenium::WebDriver::Error::UnknownError: newSession
+stack backtrace:
+   0:           0x4bb74f - <no info>
+   1:           0x4bbea9 - <no info>
+   2:           0x43ce8d - <no info>
+   3:           0x44ce14 - <no info>
+   4:           0x44944a - <no info>
+   5:           0x4203e1 - <no info>
+   6:           0x407dc7 - <no info>
+   7:           0x6d95b9 - <no info>
+   8:           0x4173a7 - <no info>
+   9:           0x6d38b3 - <no info>
+  10:     0x7ffc2ca93034 - BaseThreadInitThunk
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/response.rb:69:in `assert_ok'
+     66:         private
+     67: 
+     68:         def assert_ok
+  => 69:           e = error
+     70:           raise e if e
+     71:           return unless @code.nil? || @code >= 400
+     72:           raise Error::ServerError, self
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/response.rb:32:in `initialize'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/http/common.rb:84:in `new'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/http/common.rb:84:in `create_response'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/http/default.rb:104:in `request'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/http/common.rb:62:in `call'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/bridge.rb:164:in `execute'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/bridge.rb:97:in `create_session'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/firefox/marionette/driver.rb:50:in `initialize'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/firefox/driver.rb:31:in `new'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/firefox/driver.rb:31:in `new'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/common/driver.rb:52:in `for'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver.rb:86:in `for'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/watir-6.10.3/lib/watir/browser.rb:48:in `initialize'
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:113:in `new'
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:113:in `startup'
+===============================================================================
+2018.11.01 14:42:47 - TestExample.setup: running TestExample.test_voc_issue_management_dashboard ...
+2018.11.01 14:42:47 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:42:47 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:42:47 - Exception: retries = 0
+2018.11.01 14:42:47 - Exception: time_to_wait = 20
+2018.11.01 14:43:07 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:43:07 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:43:07 - Exception: retries = 1
+2018.11.01 14:43:07 - Exception: time_to_wait = 20
+2018.11.01 14:43:27 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:43:27 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:43:27 - Exception: retries = 2
+2018.11.01 14:43:27 - Exception: time_to_wait = 20
+2018.11.01 14:43:47 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:43:47 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:43:47 - Exception: retries = 3
+2018.11.01 14:43:47 - Exception: time_to_wait = 20
+2018.11.01 14:44:07 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:44:07 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:44:07 - Exception: retries = 4
+2018.11.01 14:44:07 - Exception: time_to_wait = 20
+2018.11.01 14:44:27 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:44:27 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:44:27 - Exception: retries = 5
+2018.11.01 14:44:27 - Exception: time_to_wait = 20
+2018.11.01 14:44:47 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:44:47 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:44:47 - Exception: retries = 6
+2018.11.01 14:44:47 - Exception: raise Exception
+
+>>>StandardError, ScriptError<<<
+
+bck: ["D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:205:in `block in setup'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:318:in `block in load_link'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:93:in `block in timeout'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `block in catch'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:108:in `timeout'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:315:in `load_link'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:205:in `setup'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:278:in `run_fixture_callback'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:266:in `block in create_fixtures_runner'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:270:in `block in create_fixtures_runner'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:251:in `run_fixture'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:286:in `run_setup'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testcase.rb:497:in `block in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testcase.rb:496:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testcase.rb:496:in `run'", "D:/RubyExamples/VoC_scripts/test_case_run_method.rb:10:in `run'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:175:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:124:in `run_test'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:53:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:124:in `run_test'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:53:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:67:in `run_suite'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:45:in `block (2 levels) in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:102:in `with_listener'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:41:in `block in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:39:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:39:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunner.rb:40:in `start_mediator'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunner.rb:25:in `start'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnerutilities.rb:24:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:435:in `block in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:491:in `change_work_directory'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:434:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:62:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit.rb:502:in `block (2 levels) in <top (required)>'"]
+
+>>>StandardError, ScriptError<<<
+
+bck: ["D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:318:in `block in load_link'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:93:in `block in timeout'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `block in catch'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:108:in `timeout'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:315:in `load_link'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:205:in `setup'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:278:in `run_fixture_callback'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:266:in `block in create_fixtures_runner'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:270:in `block in create_fixtures_runner'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:251:in `run_fixture'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:286:in `run_setup'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testcase.rb:497:in `block in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testcase.rb:496:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testcase.rb:496:in `run'", "D:/RubyExamples/VoC_scripts/test_case_run_method.rb:10:in `run'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:175:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:124:in `run_test'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:53:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:124:in `run_test'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:53:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:67:in `run_suite'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:45:in `block (2 levels) in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:102:in `with_listener'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:41:in `block in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:39:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:39:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunner.rb:40:in `start_mediator'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunner.rb:25:in `start'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnerutilities.rb:24:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:435:in `block in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:491:in `change_work_directory'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:434:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:62:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit.rb:502:in `block (2 levels) in <top (required)>'"]
+E
+===============================================================================
+Error: test_voc_issue_management_dashboard(TestExample): NameError: uninitialized class variable @@b in TestExample
+D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:93:in `block in timeout'
+D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `block in catch'
+D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `catch'
+D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `catch'
+D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:108:in `timeout'
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:315:in `load_link'
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:205:in `setup'
+D:/RubyExamples/VoC_scripts/test_case_run_method.rb:10:in `run'
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:175:in `run'
+===============================================================================
+2018.11.01 14:44:47 - TestExample.teardown: terminating TestExample.test_voc_issue_management_dashboard ...
+2018.11.01 14:44:47 - TestExample.teardown: FAIL
+E
+===============================================================================
+Error: test_voc_issue_management_dashboard(TestExample): NameError: uninitialized class variable @@b in TestExample
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:236:in `teardown'
+D:/RubyExamples/VoC_scripts/test_case_run_method.rb:10:in `run'
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:175:in `run'
+===============================================================================
+E
+===============================================================================
+Error: TestExample: NameError: uninitialized class variable @@b in TestExample
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:150:in `shutdown'
+     147: 
+     148:     def shutdown
+     149:       time = Time.new
+  => 150:       puts "#{time.strftime('%Y.%m.%d %H:%M:%S')} - #{self.name}.#{__method__.to_s}: @@browser = #{@@browser} --- @@b = #{@@b}\n"
+     151:       #puts "#{time.strftime('%Y.%m.%d %H:%M:%S')} - #{self.to_s}.#{__method__.to_s}: @@browser = #{@@browser} --- @@b = #{@@b}\n"
+     152: 
+     153:       @@b.close
+===============================================================================
+
+Finished in 124.522876 seconds.
+-------------------------------------------------------------------------------
+1 tests, 0 assertions, 0 failures, 4 errors, 0 pendings, 0 omissions, 0 notifications
+0% passed
+-------------------------------------------------------------------------------
+0.01 tests/s, 0.00 assertions/s
+
+D:\RubyExamples\VoC_scripts>echo "End File8" 
+"End File8"
+
+D:\RubyExamples\VoC_scripts>echo "--------------------------------------------------------------------------------------------------------" 
+"--------------------------------------------------------------------------------------------------------"
+
+D:\RubyExamples\VoC_scripts>echo "Start File9" 
+"Start File9"
+
+D:\RubyExamples\VoC_scripts>D:\Software\Ruby24-x64\bin\ruby.exe D:\RubyExamples\VoC_scripts\JenkinsTest\test_case_fw_VoC_toolbox_tests_table_detail.rb 
+Test: Ã„Ã–ÃœÃ¤Ã¶Ã¼ÃŸ
+2018.11.01 14:44:47 - START TESTING . . .
+Test: Ã„Ã–ÃœÃ¤Ã¶Ã¼ÃŸ
+Test: Ã„Ã–ÃœÃ¤Ã¶Ã¼ÃŸ
+Loaded suite D:/RubyExamples/VoC_scripts/JenkinsTest/test_case_fw_VoC_toolbox_tests_table_detail
+Started
+Browser: firefox
+2018-11-01 14:44:50 WARN Selenium [DEPRECATION] :timeout= is deprecated. Use #read_timeout= and #open_timeout= instead.
+2018.11.01 14:44:49 - TestExample.startup: @@client.timeout = 
+E
+===============================================================================
+Error: TestExample: Selenium::WebDriver::Error::UnknownError: newSession
+stack backtrace:
+   0:           0x4bb74f - <no info>
+   1:           0x4bbea9 - <no info>
+   2:           0x43ce8d - <no info>
+   3:           0x44ce14 - <no info>
+   4:           0x44944a - <no info>
+   5:           0x4203e1 - <no info>
+   6:           0x407dc7 - <no info>
+   7:           0x6d95b9 - <no info>
+   8:           0x4173a7 - <no info>
+   9:           0x6d38b3 - <no info>
+  10:     0x7ffc2ca93034 - BaseThreadInitThunk
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/response.rb:69:in `assert_ok'
+     66:         private
+     67: 
+     68:         def assert_ok
+  => 69:           e = error
+     70:           raise e if e
+     71:           return unless @code.nil? || @code >= 400
+     72:           raise Error::ServerError, self
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/response.rb:32:in `initialize'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/http/common.rb:84:in `new'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/http/common.rb:84:in `create_response'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/http/default.rb:104:in `request'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/http/common.rb:62:in `call'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/bridge.rb:164:in `execute'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/bridge.rb:97:in `create_session'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/firefox/marionette/driver.rb:50:in `initialize'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/firefox/driver.rb:31:in `new'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/firefox/driver.rb:31:in `new'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/common/driver.rb:52:in `for'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver.rb:86:in `for'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/watir-6.10.3/lib/watir/browser.rb:48:in `initialize'
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:113:in `new'
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:113:in `startup'
+===============================================================================
+2018.11.01 14:44:53 - TestExample.setup: running TestExample.test_voc_issue_management_dashboard ...
+2018.11.01 14:44:53 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:44:53 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:44:53 - Exception: retries = 0
+2018.11.01 14:44:53 - Exception: time_to_wait = 20
+2018.11.01 14:45:13 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:45:13 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:45:13 - Exception: retries = 1
+2018.11.01 14:45:13 - Exception: time_to_wait = 20
+2018.11.01 14:45:33 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:45:33 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:45:33 - Exception: retries = 2
+2018.11.01 14:45:33 - Exception: time_to_wait = 20
+2018.11.01 14:45:53 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:45:53 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:45:53 - Exception: retries = 3
+2018.11.01 14:45:53 - Exception: time_to_wait = 20
+2018.11.01 14:46:13 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:46:13 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:46:13 - Exception: retries = 4
+2018.11.01 14:46:13 - Exception: time_to_wait = 20
+2018.11.01 14:46:33 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:46:33 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:46:33 - Exception: retries = 5
+2018.11.01 14:46:33 - Exception: time_to_wait = 20
+2018.11.01 14:46:53 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:46:53 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:46:53 - Exception: retries = 6
+2018.11.01 14:46:53 - Exception: raise Exception
+
+>>>StandardError, ScriptError<<<
+
+bck: ["D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:205:in `block in setup'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:318:in `block in load_link'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:93:in `block in timeout'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `block in catch'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:108:in `timeout'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:315:in `load_link'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:205:in `setup'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:278:in `run_fixture_callback'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:266:in `block in create_fixtures_runner'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:270:in `block in create_fixtures_runner'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:251:in `run_fixture'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:286:in `run_setup'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testcase.rb:497:in `block in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testcase.rb:496:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testcase.rb:496:in `run'", "D:/RubyExamples/VoC_scripts/test_case_run_method.rb:10:in `run'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:175:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:124:in `run_test'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:53:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:124:in `run_test'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:53:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:67:in `run_suite'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:45:in `block (2 levels) in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:102:in `with_listener'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:41:in `block in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:39:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:39:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunner.rb:40:in `start_mediator'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunner.rb:25:in `start'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnerutilities.rb:24:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:435:in `block in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:491:in `change_work_directory'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:434:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:62:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit.rb:502:in `block (2 levels) in <top (required)>'"]
+
+>>>StandardError, ScriptError<<<
+
+bck: ["D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:318:in `block in load_link'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:93:in `block in timeout'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `block in catch'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:108:in `timeout'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:315:in `load_link'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:205:in `setup'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:278:in `run_fixture_callback'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:266:in `block in create_fixtures_runner'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:270:in `block in create_fixtures_runner'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:251:in `run_fixture'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:286:in `run_setup'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testcase.rb:497:in `block in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testcase.rb:496:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testcase.rb:496:in `run'", "D:/RubyExamples/VoC_scripts/test_case_run_method.rb:10:in `run'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:175:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:124:in `run_test'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:53:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:124:in `run_test'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:53:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:67:in `run_suite'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:45:in `block (2 levels) in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:102:in `with_listener'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:41:in `block in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:39:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:39:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunner.rb:40:in `start_mediator'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunner.rb:25:in `start'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnerutilities.rb:24:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:435:in `block in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:491:in `change_work_directory'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:434:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:62:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit.rb:502:in `block (2 levels) in <top (required)>'"]
+E
+===============================================================================
+Error: test_voc_issue_management_dashboard(TestExample): NameError: uninitialized class variable @@b in TestExample
+D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:93:in `block in timeout'
+D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `block in catch'
+D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `catch'
+D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `catch'
+D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:108:in `timeout'
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:315:in `load_link'
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:205:in `setup'
+D:/RubyExamples/VoC_scripts/test_case_run_method.rb:10:in `run'
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:175:in `run'
+===============================================================================
+2018.11.01 14:46:53 - TestExample.teardown: terminating TestExample.test_voc_issue_management_dashboard ...
+2018.11.01 14:46:53 - TestExample.teardown: FAIL
+E
+===============================================================================
+Error: test_voc_issue_management_dashboard(TestExample): NameError: uninitialized class variable @@b in TestExample
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:236:in `teardown'
+D:/RubyExamples/VoC_scripts/test_case_run_method.rb:10:in `run'
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:175:in `run'
+===============================================================================
+E
+===============================================================================
+Error: TestExample: NameError: uninitialized class variable @@b in TestExample
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:150:in `shutdown'
+     147: 
+     148:     def shutdown
+     149:       time = Time.new
+  => 150:       puts "#{time.strftime('%Y.%m.%d %H:%M:%S')} - #{self.name}.#{__method__.to_s}: @@browser = #{@@browser} --- @@b = #{@@b}\n"
+     151:       #puts "#{time.strftime('%Y.%m.%d %H:%M:%S')} - #{self.to_s}.#{__method__.to_s}: @@browser = #{@@browser} --- @@b = #{@@b}\n"
+     152: 
+     153:       @@b.close
+===============================================================================
+
+Finished in 124.150798 seconds.
+-------------------------------------------------------------------------------
+1 tests, 0 assertions, 0 failures, 4 errors, 0 pendings, 0 omissions, 0 notifications
+0% passed
+-------------------------------------------------------------------------------
+0.01 tests/s, 0.00 assertions/s
+
+D:\RubyExamples\VoC_scripts>echo "End File9" 
+"End File9"
+
+D:\RubyExamples\VoC_scripts>echo "--------------------------------------------------------------------------------------------------------" 
+"--------------------------------------------------------------------------------------------------------"
+
+D:\RubyExamples\VoC_scripts>echo "Start File10" 
+"Start File10"
+
+D:\RubyExamples\VoC_scripts>D:\Software\Ruby24-x64\bin\ruby.exe D:\RubyExamples\VoC_scripts\JenkinsTest\test_case_fw_VoC_toolbox_tests_voc_reporting.rb 
+Test: Ã„Ã–ÃœÃ¤Ã¶Ã¼ÃŸ
+2018.11.01 14:46:54 - START TESTING . . .
+Test: Ã„Ã–ÃœÃ¤Ã¶Ã¼ÃŸ
+Test: Ã„Ã–ÃœÃ¤Ã¶Ã¼ÃŸ
+Loaded suite D:/RubyExamples/VoC_scripts/JenkinsTest/test_case_fw_VoC_toolbox_tests_voc_reporting
+Started
+Browser: firefox
+2018-11-01 14:46:56 WARN Selenium [DEPRECATION] :timeout= is deprecated. Use #read_timeout= and #open_timeout= instead.
+2018.11.01 14:46:56 - TestExample.startup: @@client.timeout = 
+E
+===============================================================================
+Error: TestExample: Selenium::WebDriver::Error::UnknownError: newSession
+stack backtrace:
+   0:           0x4bb74f - <no info>
+   1:           0x4bbea9 - <no info>
+   2:           0x43ce8d - <no info>
+   3:           0x44ce14 - <no info>
+   4:           0x44944a - <no info>
+   5:           0x4203e1 - <no info>
+   6:           0x407dc7 - <no info>
+   7:           0x6d95b9 - <no info>
+   8:           0x4173a7 - <no info>
+   9:           0x6d38b3 - <no info>
+  10:     0x7ffc2ca93034 - BaseThreadInitThunk
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/response.rb:69:in `assert_ok'
+     66:         private
+     67: 
+     68:         def assert_ok
+  => 69:           e = error
+     70:           raise e if e
+     71:           return unless @code.nil? || @code >= 400
+     72:           raise Error::ServerError, self
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/response.rb:32:in `initialize'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/http/common.rb:84:in `new'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/http/common.rb:84:in `create_response'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/http/default.rb:104:in `request'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/http/common.rb:62:in `call'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/bridge.rb:164:in `execute'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/remote/bridge.rb:97:in `create_session'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/firefox/marionette/driver.rb:50:in `initialize'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/firefox/driver.rb:31:in `new'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/firefox/driver.rb:31:in `new'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver/common/driver.rb:52:in `for'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/selenium-webdriver-3.14.0/lib/selenium/webdriver.rb:86:in `for'
+D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/watir-6.10.3/lib/watir/browser.rb:48:in `initialize'
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:113:in `new'
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:113:in `startup'
+===============================================================================
+2018.11.01 14:46:59 - TestExample.setup: running TestExample.test_voc_reporting_dashboard ...
+2018.11.01 14:46:59 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:46:59 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:46:59 - Exception: retries = 0
+2018.11.01 14:46:59 - Exception: time_to_wait = 20
+2018.11.01 14:47:19 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:47:19 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:47:19 - Exception: retries = 1
+2018.11.01 14:47:19 - Exception: time_to_wait = 20
+2018.11.01 14:47:39 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:47:39 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:47:39 - Exception: retries = 2
+2018.11.01 14:47:39 - Exception: time_to_wait = 20
+2018.11.01 14:47:59 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:47:59 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:47:59 - Exception: retries = 3
+2018.11.01 14:47:59 - Exception: time_to_wait = 20
+2018.11.01 14:48:19 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:48:19 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:48:19 - Exception: retries = 4
+2018.11.01 14:48:19 - Exception: time_to_wait = 20
+2018.11.01 14:48:39 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:48:39 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:48:39 - Exception: retries = 5
+2018.11.01 14:48:39 - Exception: time_to_wait = 20
+2018.11.01 14:48:59 - Timeout::timeout: goto https://move-test.ttr-group.de/move-voc
+2018.11.01 14:48:59 - Exception occurred:
+ uninitialized class variable @@b in TestExample
+2018.11.01 14:48:59 - Exception: retries = 6
+2018.11.01 14:48:59 - Exception: raise Exception
+
+>>>StandardError, ScriptError<<<
+
+bck: ["D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:205:in `block in setup'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:318:in `block in load_link'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:93:in `block in timeout'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `block in catch'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:108:in `timeout'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:315:in `load_link'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:205:in `setup'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:278:in `run_fixture_callback'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:266:in `block in create_fixtures_runner'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:270:in `block in create_fixtures_runner'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:251:in `run_fixture'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:286:in `run_setup'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testcase.rb:497:in `block in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testcase.rb:496:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testcase.rb:496:in `run'", "D:/RubyExamples/VoC_scripts/test_case_run_method.rb:10:in `run'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:175:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:124:in `run_test'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:53:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:124:in `run_test'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:53:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:67:in `run_suite'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:45:in `block (2 levels) in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:102:in `with_listener'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:41:in `block in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:39:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:39:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunner.rb:40:in `start_mediator'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunner.rb:25:in `start'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnerutilities.rb:24:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:435:in `block in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:491:in `change_work_directory'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:434:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:62:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit.rb:502:in `block (2 levels) in <top (required)>'"]
+
+>>>StandardError, ScriptError<<<
+
+bck: ["D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:318:in `block in load_link'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:93:in `block in timeout'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `block in catch'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:108:in `timeout'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:315:in `load_link'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:205:in `setup'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:278:in `run_fixture_callback'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:266:in `block in create_fixtures_runner'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:270:in `block in create_fixtures_runner'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:251:in `run_fixture'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/fixture.rb:286:in `run_setup'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testcase.rb:497:in `block in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testcase.rb:496:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testcase.rb:496:in `run'", "D:/RubyExamples/VoC_scripts/test_case_run_method.rb:10:in `run'", "D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:175:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:124:in `run_test'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:53:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:124:in `run_test'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/testsuite.rb:53:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:67:in `run_suite'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:45:in `block (2 levels) in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:102:in `with_listener'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:41:in `block in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:39:in `catch'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnermediator.rb:39:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunner.rb:40:in `start_mediator'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunner.rb:25:in `start'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/ui/testrunnerutilities.rb:24:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:435:in `block in run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:491:in `change_work_directory'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:434:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit/autorunner.rb:62:in `run'", "D:/Software/Ruby24-x64/lib/ruby/gems/2.4.0/gems/test-unit-3.2.7/lib/test/unit.rb:502:in `block (2 levels) in <top (required)>'"]
+E
+===============================================================================
+Error: test_voc_reporting_dashboard(TestExample): NameError: uninitialized class variable @@b in TestExample
+D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:93:in `block in timeout'
+D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `block in catch'
+D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `catch'
+D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:33:in `catch'
+D:/Software/Ruby24-x64/lib/ruby/2.4.0/timeout.rb:108:in `timeout'
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:315:in `load_link'
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:205:in `setup'
+D:/RubyExamples/VoC_scripts/test_case_run_method.rb:10:in `run'
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:175:in `run'
+===============================================================================
+2018.11.01 14:48:59 - TestExample.teardown: terminating TestExample.test_voc_reporting_dashboard ...
+2018.11.01 14:48:59 - TestExample.teardown: FAIL
+E
+===============================================================================
+Error: test_voc_reporting_dashboard(TestExample): NameError: uninitialized class variable @@b in TestExample
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:236:in `teardown'
+D:/RubyExamples/VoC_scripts/test_case_run_method.rb:10:in `run'
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:175:in `run'
+===============================================================================
+E
+===============================================================================
+Error: TestExample: NameError: uninitialized class variable @@b in TestExample
+D:/RubyExamples/VoC_scripts/test_base_fw_VoC.rb:150:in `shutdown'
+     147: 
+     148:     def shutdown
+     149:       time = Time.new
+  => 150:       puts "#{time.strftime('%Y.%m.%d %H:%M:%S')} - #{self.name}.#{__method__.to_s}: @@browser = #{@@browser} --- @@b = #{@@b}\n"
+     151:       #puts "#{time.strftime('%Y.%m.%d %H:%M:%S')} - #{self.to_s}.#{__method__.to_s}: @@browser = #{@@browser} --- @@b = #{@@b}\n"
+     152: 
+     153:       @@b.close
+===============================================================================
+
+Finished in 123.037582 seconds.
+-------------------------------------------------------------------------------
+1 tests, 0 assertions, 0 failures, 4 errors, 0 pendings, 0 omissions, 0 notifications
+0% passed
+-------------------------------------------------------------------------------
+0.01 tests/s, 0.00 assertions/s
+
+D:\RubyExamples\VoC_scripts>echo "End File10" 
+"End File10"
+
+D:\RubyExamples\VoC_scripts>echo "--------------------------------------------------------------------------------------------------------" 
+"--------------------------------------------------------------------------------------------------------"
+[8mha:////4Bc5S0T0T5vG9UbnnDT5gznCnTqIp72dqk3lIK1OxgcCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4Bc5S0T0T5vG9UbnnDT5gznCnTqIp72dqk3lIK1OxgcCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4Bc5S0T0T5vG9UbnnDT5gznCnTqIp72dqk3lIK1OxgcCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4Bc5S0T0T5vG9UbnnDT5gznCnTqIp72dqk3lIK1OxgcCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Evaluate Test Results)
+[8mha:////4Bc5S0T0T5vG9UbnnDT5gznCnTqIp72dqk3lIK1OxgcCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] echo
+Evaluate Test Results
+[8mha:////4Bc5S0T0T5vG9UbnnDT5gznCnTqIp72dqk3lIK1OxgcCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] bat
+[PipelineTest_Watir] Running batch script
+
+D:\Software\workspace\PipelineTest_Watir>D:/RubyExamples/VoC_scripts/Evaluate.bat
+
+D:\Software\workspace\PipelineTest_Watir>echo "--------------------------------Start Batch Run--------------------------------------------------------" 
+"--------------------------------Start Batch Run--------------------------------------------------------"
+
+D:\Software\workspace\PipelineTest_Watir>cd D:\RubyExamples\VoC_scripts 
+
+D:\RubyExamples\VoC_scripts>echo "Start Evaluate 
+"Start Evaluate
+
+D:\RubyExamples\VoC_scripts>D:\Software\Ruby24-x64\bin\ruby.exe D:\RubyExamples\VoC_scripts\EvaluateResults.rb 
+#<File:0x00000000012d5b58>
+
+D:\RubyExamples\VoC_scripts>echo "End Evaluate" 
+"End Evaluate"
+
+D:\RubyExamples\VoC_scripts>echo "Start Evaluate 
+"Start Evaluate
+
+D:\RubyExamples\VoC_scripts>D:\Software\Ruby24-x64\bin\ruby.exe D:\RubyExamples\VoC_scripts\LogParseFile.rb 
+Results file generated list:
+Feedback_Test2018-11-01_14-49-08.xlsx
+Test_results.txt
+
+D:\RubyExamples\VoC_scripts>echo "End Evaluate" 
+"End Evaluate"
+
+D:\RubyExamples\VoC_scripts>echo "--------------------------------------------------------------------------------------------------------" 
+"--------------------------------------------------------------------------------------------------------"
+[8mha:////4Bc5S0T0T5vG9UbnnDT5gznCnTqIp72dqk3lIK1OxgcCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4Bc5S0T0T5vG9UbnnDT5gznCnTqIp72dqk3lIK1OxgcCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4Bc5S0T0T5vG9UbnnDT5gznCnTqIp72dqk3lIK1OxgcCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4Bc5S0T0T5vG9UbnnDT5gznCnTqIp72dqk3lIK1OxgcCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4Bc5S0T0T5vG9UbnnDT5gznCnTqIp72dqk3lIK1OxgcCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] End of Pipeline
+Finished: SUCCESS
