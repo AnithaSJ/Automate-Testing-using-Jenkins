@@ -1,0 +1,26 @@
+//Simple example to archieve build artifacts
+pipeline {
+   agent{ label 'master'}
+    stages {
+        stage('Execute Test Scripts')
+        {
+            steps{
+                echo 'Executing Test Scripts'
+                bat 'D:/RubyExamples/Jenkins/PipelineTest_ActiveHub/Execute.bat'
+            }
+        }
+        stage('Evaluate Test Results')
+        {
+            steps{
+                echo 'Evaluate Test Results'
+                 bat 'D:/RubyExamples/Jenkins/PipelineTest_ActiveHub/Evaluate.bat'
+                }
+        }
+    }
+    post
+    {
+      always { //attach build log >> attachLog: true  custom file attachments >>attachmentsPattern: '*.xlsx, *.txt' (not working yet)
+               emailext  attachLog: true , body: 'Find attachments', subject: '"Jenkins" TestPipeline_2019 Status ', to: 'xxx@gmail.com, xxx@gmail.com'
+             }
+    }
+}
