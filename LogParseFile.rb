@@ -1,4 +1,3 @@
-#require 'FileUtils'
 require 'rubyXL'
 require 're'
 
@@ -6,80 +5,95 @@ class LogParser
 
 	def initialize filePath
 		raise ArgumentError unless File.exists?( filePath )
-		#@logFile	= File.read( filePath )
-		@lines_array = IO.readlines(filePath)
+			@lines_array = IO.readlines(filePath) #read file line by line
 	end
-  #Creates new file,if file exists appends the content
-  #outputFile = File.open(outputFilePath + "results.txt", "a")
 
-	#pull results of console log file form each line
-	def getResults
-  #  outputFilePath = "D:/RubyExamples/VoC_scripts/JenkinsTest/"
-    #Creates new file, if file exists overwrites the content
-  #  outputFile = File.open(outputFilePath + "LogFile_Results.txt", "w")
-    outputFilePath = "D:/Software/jobs/PipelineTest_Watir/builds/"
-		outputFile = File.open( outputFilePath +  "Test_results.txt", "w")
-		outputFile.puts "----------------------------------------------------------------------------------------------------------------------------------------------"
-		outputFile.puts "TestSuits                                                 || Results"
-		outputFile.puts "----------------------------------------------------------------------------------------------------------------------------------------------"
+	def getResults outputPath, f_cdata
+
+		#Calculate start and endline foreach Test_Script_File Output
+		startline = Array.new
+    endline = Array.new
+
+		@lines_array.each_with_index do |element, index|
+				if (not (element =~ /ruby\.exe.+/).nil?) # =~ returns position of expression match
+					startline.push(index)
+				end
+				if (not (element =~ /assertions\/s/).nil?)
+					endline.push(index + 1)
+				end
+		end
 
 		test_suits= Array.new
-		test_suits_results = Array.new
-		test_cases = Array.new
-		test_cases_output = Array.new
-		test_suits_results_list = []
-		test_suits_results_str = ""
+    test_suits_results = Array.new
+    length,i,j,line = 0
+		#Multidimensional ARRAY
+    #Array.new(Number_of_ROWs){Array.new(Number_of_COLUMNs){DefaultValues}}
+    test_cases= Array.new(){Array.new(1){""}}
+    test_cases_output= Array.new(){Array.new(1){""}}
 
-    #Parse results.txt File
-		[@lines_array, nil].flatten.each_cons(2) do |element, next_element|
+		total_PASS_case,total_FAIL_case = 0
 
-			    if (element =~ /ruby\.exe.+/ .. element  =~ /\.rb /)
-			 		  filename = element.match(/(?<=ruby\.exe)(.*)\.rb/) #Extracting only the Executed File Path
-					  test_suits.push(filename)
+		is_exit = true
 
-						if (next_element =~ /ruby\.exe.+/) #if no output lines
-								test_suits_results.push("no results")
-						#elsif (next_element =~ /^(?!Number of Failures:.)/)#add immediate line into the array
-							#	test_suits_results.push(next_element)
-						end
-					elsif (element =~ /tests\,/ .. element  =~ /notifications/)
-									output = element #Extracting only the Test restults
-									test_suits_results.push(output)
-
-					elsif (element =~ /TestExample\.teardown\:\ terminating/)
-									test_cases.push(element.match(/(?<=TestExample.teardown: terminating.)(.*) ?\ /))
-									#puts element.match(/(?<=TestExample.teardown: terminating.)(.*) ?\ /)
-								  if (next_element =~ /TestExample.teardown: FAIL/  )
-										test_cases_output.push("FAIL")
-										#puts "F"
-									else
-										test_cases_output.push("PASS")
-										#puts "P"
-									end
-					end
+		#Store Test_Script_File names and Results (tests, errors....)
+		@lines_array.each do |element|
+			if (not (element =~ /Evaluate\.bat/).nil?)
+				is_exit = false
 			end
-
-=begin
-						case
-						when next_element.match(/ruby\.exe.+/)
-							test_suits_results.push("Nil")
-						when next_element.match(/^(?!Number of Failures:.)/)
-								test_suits_results.push(next_element)
-						end
-=end
-=begin
-				case
-				when element.match(/TestExample\.teardown\: terminating/)
-						test_cases.push(element.match(/(?<=TestExample.teardown: terminating.)(.*) ?\ /))
-						puts element.match(/(?<=TestExample.teardown: terminating.)(.*) ?\ /)
-				when next_element.match(/TestExample\.teardown\: PASS/)
-						test_cases_output.push("FAIL")
-						puts next_element
-				when next_element.match(/TestExample\.teardown\: PASS/)
-						test_cases_output.push("PASS")
-						puts next_element
+			if is_exit.is_a?(TrueClass) #control only to read Execute Scipts
+		    if (not (element =~ /(.+)ruby\.exe(.+)\.rb/).nil?)
+		 		  filename = element.match(/(?<=ruby\.exe).*\.rb/)
+				  test_suits.push(filename) #Extracting only the Executed File Path
+				elsif (not (element =~ /.+tests\,.*notifications/).nil?)
+					output = element #Extracting only the Test restults
+					test_suits_results.push(output)
 				end
-=end
+			end
+		end
+
+		#Foreach Test_Script_File extract Testcases(Test Method Names) and Testcases's output PASS/FAIL
+		endline.each_with_index do |element, index|
+			length = endline[index] - startline[index]
+			line = startline[index]
+			test_method = []
+			test_method_outcome = []
+			for j in 0..length + 1
+				element = @lines_array[line + j]
+				next_element =   @lines_array[line + j + 1]
+
+				if (not (element =~ /TestExample\.teardown\:\ terminating/).nil?)
+					test_method.push(element.match(/((?<=TestExample.teardown: terminating.)(.*)?\ )/))
+				end
+				if (not (next_element =~ /TestExample.teardown: FAIL/).nil?)
+					test_method_outcome.push('FAIL')
+					total_FAIL_case = total_FAIL_case.to_i + 1
+				elsif (not (next_element =~ /TestExample.teardown: PASS/).nil?)
+					test_method_outcome.push('PASS')
+					total_PASS_case = total_PASS_case.to_i + 1
+				end
+			end
+			test_cases.push(test_method)
+			test_cases_output.push(test_method_outcome)
+		end
+
+		#Section: Result file generation
+		#Customised file name based on log file creation DateTime
+# 				log_creationTime = File.mtime("Test_results.txt").to_s.split(" ")
+# 				cdate = log_creationTime[0]
+# 				ctime = log_creationTime[1].tr(':', '-')
+# 			  filename = "Feedback_Test" + cdate + "_" + ctime +".xlsx"
+		excel_filename = "Feedback_Test" + f_cdata + ".xlsx"
+		text_filename = "Feedback_Test" + f_cdata + ".txt"
+		#Change directory to Output Path (build folder of Jenkins Pipeline)
+		Dir.chdir(outputPath)
+
+		#Create Text File
+    #outputFilePath = "D:/Software/jobs/PipelineTest_Watir/builds/"
+		#outputFile = File.open( outputFilePath +  "Test_results.txt", "w")
+		outputFile = File.open(text_filename, "w")
+		outputFile.puts "----------------------------------------------------------------------------------------------------------------------------------------------"
+		outputFile.puts "TestSuits                                                 			|| Results"
+		outputFile.puts "----------------------------------------------------------------------------------------------------------------------------------------------"
 
 		test_suits.each_with_index do |element, index|
 			 outputFile.print element
@@ -88,14 +102,16 @@ class LogParser
     end
 		#outputFile.puts "----------------------------------------------------------------------------------------------------------------------------------------------"
 		outputFile.puts "----------------------------------------------------------------------------------------------------------------------------------------------"
-		outputFile.puts "TestCases                                                 || Output"
+		outputFile.puts "TestCases                                                      || Output"
 		outputFile.puts "----------------------------------------------------------------------------------------------------------------------------------------------"
 
 
-		test_cases.each_with_index do |element, index|
-			 outputFile.print element
+		test_cases.each_with_index do |element, indexi|
+			element.each_with_index do |value, indexj|
+			 outputFile.print value
 			 outputFile.print "\t"+ "||" + "\t"
-			 outputFile.puts test_cases_output[index]
+			 outputFile.puts test_cases_output[indexi][indexj]
+		 end
 		end
 		#outputFile.puts "----------------------------------------------------------------------------------------------------------------------------------------------"
 		outputFile.puts "----------------------------------------------------------------------------------------------------------------------------------------------"
@@ -104,187 +120,188 @@ class LogParser
 
     outputFile.close
 
-		Dir.chdir(outputFilePath) # directory path for storing excel file
+		#Create Excel File
+		#Dir.chdir(outputFilePath) # directory path for storing excel file
+		workbook = RubyXL::Workbook.new
+		#Important: Add/Modify cells in Sheets before .write method(.write--> creates excel file)
+   				#worksheet = workbook[0] #EXCEL:Sheet1
+					worksheet_Overview = workbook[0] #EXCEL:Sheet1
+					worksheet_Detailed = workbook.add_worksheet('Sheet2')  #EXCEL:Sheet2
 
-				workbook = RubyXL::Workbook.new
-				#Customised file name based on log file creation DateTime
-				log_creationTime = File.mtime("Test_results.txt").to_s.split(" ")
-				cdate = log_creationTime[0]
-				ctime = log_creationTime[1].tr(':', '-')
-			  filename = "Feedback_Test" + cdate + "_" + ctime +".xlsx"
-        #filename = "Feedback_Test" + ".xlsx"
-				##Important: Add/Modify cells in Sheets before .write method (creating excel file)
-				worksheet = workbook[0]
-				worksheet_additional = workbook.add_worksheet('Sheet2')
-				len = test_suits.length
-				m_len = test_cases.length
+		#First row in sheet1 >>Add heading
+  				worksheet_Overview.add_cell(0, 0, "TestSuits") #first column
+  				worksheet_Overview.add_cell(0, 1, "Tests" ) #second column
+  				worksheet_Overview.add_cell(0, 2, "Assertions" ) #third column
+  				worksheet_Overview.add_cell(0, 3, "Failures")  #fourth column
+  				worksheet_Overview.add_cell(0, 4, "Errors")  #fifth column
+  				worksheet_Overview.add_cell(0, 5, "Pendings") #seventh column
+  				worksheet_Overview.add_cell(0, 6, "Omissions") #eighth column
+  				worksheet_Overview.add_cell(0, 7, "Notifications") #ninth column
 
-				#First row in sheet1 >>Add heading
-				worksheet.add_cell(0, 0, "TestSuits") #first column
-				worksheet.add_cell(0, 1, "TestCases") #second column
-				worksheet.add_cell(0, 2, "Results") #third column
-				worksheet.add_cell(0, 3, "Tests" ) #fourth column
-				worksheet.add_cell(0, 4, "Assertions" ) #fifth column
-				worksheet.add_cell(0, 5, "Failures")  #sixth column
-				worksheet.add_cell(0, 6, "Errors")  #seventh column
-				worksheet.add_cell(0, 7, "Pendings") #eighth column
-				worksheet.add_cell(0, 8, "Omissions") #ninth column
-				worksheet.add_cell(0, 9, "Notifications") #tenth column
+		#Format Sheet1 column header
+					col1_header_cell = worksheet_Overview[0][0]
+					col2_header_cell = worksheet_Overview[0][1]
+					col3_header_cell = worksheet_Overview[0][2]
+					col4_header_cell = worksheet_Overview[0][3]
+					col5_header_cell = worksheet_Overview[0][4]
+					col6_header_cell = worksheet_Overview[0][5]
+					col7_header_cell = worksheet_Overview[0][6]
+					col8_header_cell = worksheet_Overview[0][7]
 
-				#First row in sheet2 >>Add heading
-				worksheet_additional.add_cell(0, 0, "TestCases")
-				worksheet_additional.add_cell(0, 1, "Output")
+					col1_header_cell.change_font_bold(true)
+					col2_header_cell.change_font_bold(true)
+					col3_header_cell.change_font_bold(true)
+					col4_header_cell.change_font_bold(true)
+					col5_header_cell.change_font_bold(true)
+					col6_header_cell.change_font_bold(true)
+					col7_header_cell.change_font_bold(true)
+					col8_header_cell.change_font_bold(true)
 
-				#Each TestCase parse output
-				row = 1
-			  for i in 0..len
+					#cell.fill_color
+					col1_header_cell.change_fill('00FF00')
+					col2_header_cell.change_fill('3697dd')
+					col3_header_cell.change_fill('f0c800')
+					col4_header_cell.change_fill('de1c24')
+					col5_header_cell.change_fill('af3205')
+					col6_header_cell.change_fill('9ba991')
+					col7_header_cell.change_fill('c5e8d6')
+					col8_header_cell.change_fill('8caa2d')
+
+ 		#First row in sheet2 >>Add heading
+					worksheet_Detailed.add_cell(0, 0, "TestSuits") #first column
+					worksheet_Detailed.add_cell(0, 1, "TestCases") #second column
+					worksheet_Detailed.add_cell(0, 2, "Results") #third column
+
+		#Format Sheet2 column header
+					s2_col1_header_cell = worksheet_Detailed[0][0]
+					s2_col2_header_cell = worksheet_Detailed[0][1]
+					s2_col3_header_cell = worksheet_Detailed[0][2]
+		#font change
+					s2_col1_header_cell.change_font_bold(true)
+					s2_col2_header_cell.change_font_bold(true)
+					s2_col3_header_cell.change_font_bold(true)
+
+    #cell.fill_color
+					s2_col1_header_cell.change_fill('00FF00')
+					s2_col2_header_cell.change_fill('0082c8')
+					s2_col3_header_cell.change_fill('f0c800')
+
+
+		#fill in Sheet1 --- TestSuits, Results-Tests, Assertions etc
+				total_Test, total_As, total_Fail, total_Er, total_Pen, total_Om, total_Notf  = 0
+				s1_row = 0
+				test_suits.each_with_index do |script, indexi|
+					#Parse Test_Script Results
 					val = ""
-				  row += 1 #Increment row
-				 	test_suits_results_str = test_suits_results[i].to_s
-					no_val = (test_suits_results_str =~ /no results/)
+					test_suits_results_str = test_suits_results[indexi].to_s
+					#Split TestSuits Results
+					test_suits_results_list = test_suits_results_str.split(",")
+					val = /(\d+)/.match(test_suits_results_list[0])
+					tests = val.to_s
+					val = /\d+/.match(test_suits_results_list[1])
+					assertions = val.to_s
+					val = /\d+/.match(test_suits_results_list[2])
+					failures = val.to_s
+					val = /\d+/.match(test_suits_results_list[3])
+					errors = val.to_s
+					val = /\d+/.match(test_suits_results_list[4])
+					pendings = val.to_s
+					val = /\d+/.match(test_suits_results_list[5])
+					omissions = val.to_s
+					val = /\d+/.match(test_suits_results_list[6])
+					notifications = val.to_s
 
-				  if no_val then
-				  		 tests = "no results"
-			    		 assertions = "no results"
-				  		 failures = "no results"
-				  		 errors = "no results"
-				  		 pendings = "no results"
-				  		 omissions = "no results"
-				   		 notifications = "no results"
-				  else
-				 	#Split TestSuits Results
-			 			 test_suits_results_list = test_suits_results_str.split(",")
+					total_Test = total_Test.to_i + tests.to_i
+					total_As = total_As.to_i + assertions.to_i
+					total_Fail = total_Fail.to_i + failures.to_i
+					total_Er = total_Er.to_i + errors.to_i
+					total_Pen = total_Pen.to_i + pendings.to_i
+					total_Om = total_Om.to_i + omissions.to_i
+					total_Notf = total_Notf.to_i + notifications.to_i
 
-						 val = /\d+/.match(test_suits_results_list[0])
-						 tests = val
+					#(row number|colum number| value)
+					worksheet_Overview.add_cell(s1_row + 1 , 0, script.to_s) #first column
+					worksheet_Overview.add_cell(s1_row + 1 , 1, tests.to_s ) #second column
+					worksheet_Overview.add_cell(s1_row + 1 , 2, assertions.to_s ) #third column
+					worksheet_Overview.add_cell(s1_row + 1 , 3, failures.to_s) #fourth column
+					worksheet_Overview.add_cell(s1_row + 1 , 4, errors.to_s) #fifth column
+					worksheet_Overview.add_cell(s1_row + 1 , 5, pendings.to_s) #sixth column
+					worksheet_Overview.add_cell(s1_row + 1 , 6, omissions.to_s) #seventh column
+					worksheet_Overview.add_cell(s1_row + 1 , 7, notifications.to_s) #eighth column
 
-						 val = /\d+/.match(test_suits_results_list[1])
-  		  		 assertions = val
+					s1_row = s1_row + 1 #increment '#row'
+				end
 
-						 val = /\d+/.match(test_suits_results_list[2])
-						 failures = val
+				#Sheet1 fill total of TestSuits results
+				#(row number|colum number| value)
+				worksheet_Overview.add_cell(s1_row + 2 , 1, total_Test.to_s ) #second column
+				worksheet_Overview.add_cell(s1_row + 2 , 2, total_As.to_s ) #third column
+				worksheet_Overview.add_cell(s1_row + 2 , 3, total_Fail.to_s) #fourth column
+				worksheet_Overview.add_cell(s1_row + 2 , 4, total_Er.to_s) #fifth column
+				worksheet_Overview.add_cell(s1_row + 2 , 5, total_Pen.to_s) #sixth column
+				worksheet_Overview.add_cell(s1_row + 2 , 6, total_Om.to_s) #seventh column
+				worksheet_Overview.add_cell(s1_row + 2 , 7, total_Notf.to_s) #eighth column
 
-						 val = /\d+/.match(test_suits_results_list[3])
-				 		 errors = val
+	#Fill in Sheet2 --- TestSuits, TestCases, test_cases_output
 
-						 val = /\d+/.match(test_suits_results_list[4])
-			 	 		 pendings = val
+				s1_row = 0
+				test_suits.each_with_index do |script, indexi|
+					#(row number|colum number| value)
+					worksheet_Detailed.add_cell(s1_row + 1 , 0, script.to_s) #first column --Test_Script
 
-						 val = /\d+/.match(test_suits_results_list[5])
-				 		 omissions = val
+					#Fill--Test methods/cases and output
+					if (not test_cases[indexi].nil?)
+						#(row number|colum number| value)
+						test_cases[indexi].each_with_index do |value,indexj|
+								worksheet_Detailed.add_cell(s1_row + 1 , 0, script.to_s)#(Repeat Script name) First column
+								worksheet_Detailed.add_cell(s1_row + 1 , 1, value.to_s) #second column
+								worksheet_Detailed.add_cell(s1_row + 1 , 2, test_cases_output[0][indexj].to_s ) #third column
+								s1_row = s1_row + 1
+						end
+					end
+				end
+				#Fill total of test_cases_output
+				worksheet_Detailed.add_cell(s1_row + 2 , 2, "PASS") #PASS
+				worksheet_Detailed.add_cell(s1_row + 3 , 2, "FAIL" ) #FAIL
 
-						 val = /\d+/.match(test_suits_results_list[6])
-		 	 		   notifications = val
+				worksheet_Detailed.add_cell(s1_row + 2 , 3, total_PASS_case.to_s) #Number_of_PASS
+				worksheet_Detailed.add_cell(s1_row + 3 , 3, total_FAIL_case.to_s ) #Number_of_FAIL
 
-			 		end
-				# #puts(tests, assertions, failures, errors, pendings, omissions, notifications )
+				#Format cell Number_of_PASS/FAIL
+				pass_header_cell = worksheet_Detailed[s1_row + 2][2]
+				fail_header_cell = worksheet_Detailed[s1_row + 3][2]
+				pass_header_cell.change_font_bold(true)
+				fail_header_cell.change_font_bold(true)
 
-				# #(row number|colum number| value)
-				   worksheet.add_cell(row , 0, test_suits[i].to_s) #first column
-					 unless (test_cases[i]).to_s.empty?  #negativeIF
-						 worksheet.add_cell(row , 1, test_cases[i].to_s) #second column
-						 worksheet.add_cell(row , 2, test_cases_output[i].to_s) #third column
-					 end
-					# #	puts executedScripts_list[i]
-				# worksheet.add_cell(i+1, 1, test_suits_results[i]) #second column
-			     worksheet.add_cell(row , 3, tests.to_s ) #fourth column
-			     worksheet.add_cell(row , 4, assertions.to_s ) #fifth column
-			 	   worksheet.add_cell(row , 5, failures.to_s) #sixth column
-				   worksheet.add_cell(row , 6, errors.to_s) #seventh column
-			 	   worksheet.add_cell(row , 7, pendings.to_s) #eighth column
-		 	     worksheet.add_cell(row , 8, omissions.to_s) #ninth column
-		       worksheet.add_cell(row , 9, notifications.to_s) #tenth column
+				pass_header_cell_value = worksheet_Detailed[s1_row + 2][3]
+				fail_header_cell_value = worksheet_Detailed[s1_row + 3][3]
+				pass_header_cell_value.change_fill('00FF00')
+				fail_header_cell_value.change_fill('de1c24')
 
-	        #  if !(test_cases[i]).to_s.empty?
-					# 	  row =  row + 1#increment rows based on testcases
-					# 	  #Test_cases and results per test_suits
-					# 	 	worksheet.add_cell(row , 0, test_cases[i].to_s) #first column
-					# 	 	worksheet.add_cell(row , 1, test_cases_output[i].to_s) #second column
-          # end
-        end
-			  # col1_header_cell = worksheet[0][0]
-			  # col2_header_cell = worksheet[0][1]
-				#
-				# col1_header_cell.change_font_bold(true)
-				# col2_header_cell.change_font_bold(true)
-				#cell.fill_color
-				# col1_header_cell.change_fill('ffff00')
-				# col2_header_cell.change_fill('32cd32')
-
-
-			  col1_header_cell = worksheet[0][0]
-			  col2_header_cell = worksheet[0][1]
-				col3_header_cell = worksheet[0][2]
-			  col4_header_cell = worksheet[0][3]
-				col5_header_cell = worksheet[0][4]
-			  col6_header_cell = worksheet[0][5]
-				col7_header_cell = worksheet[0][6]
-			  col8_header_cell = worksheet[0][7]
-				col9_header_cell = worksheet[0][8]
-				col10_header_cell = worksheet[0][9]
-				#
-				col1_header_cell.change_font_bold(true)
-				col2_header_cell.change_font_bold(true)
-				col3_header_cell.change_font_bold(true)
-				col4_header_cell.change_font_bold(true)
-				col5_header_cell.change_font_bold(true)
-				col6_header_cell.change_font_bold(true)
-				col7_header_cell.change_font_bold(true)
-				col8_header_cell.change_font_bold(true)
-				col9_header_cell.change_font_bold(true)
-				col10_header_cell.change_font_bold(true)
-
-				#cell.fill_color
-				col1_header_cell.change_fill('ffff00')
-				col2_header_cell.change_fill('32cd32')
-				col3_header_cell.change_fill('ffff00')
-				col4_header_cell.change_fill('32cd32')
-				col5_header_cell.change_fill('ffff00')
-				col6_header_cell.change_fill('32cd32')
-				col7_header_cell.change_fill('ffff00')
-				col8_header_cell.change_fill('32cd32')
-				col9_header_cell.change_fill('ffff00')
-				col10_header_cell.change_fill('32cd32')
-
-
-				for i in 0..m_len
-			   #(row number|colum number| value)
-					 worksheet_additional.add_cell(i+1, 0, test_cases[i].to_s) #first column
-					#	puts executedScripts_list[i]
-					 worksheet_additional.add_cell(i+1, 1, test_cases_output[i].to_s) #second column
-			  end
-				col1_header_cell1 = worksheet_additional[0][0]
-				col2_header_cell2 = worksheet_additional[0][1]
-				#font change
-				col1_header_cell1.change_font_bold(true)
-				col2_header_cell2.change_font_bold(true)
-				# #cell.fill_color
-				col1_header_cell1.change_fill('ffff00')
-				col2_header_cell2.change_fill('32cd32')
-
-				#creates Excel named as filename
-				var= workbook.write (filename)
-
+				var= workbook.write (excel_filename) #Write and create EXCEL
 				puts("Results file generated list:")
 				puts(var)
-				puts("Test_results.txt")
-
-				## TODO: rename a worksheet first Sheet1
-				#workbook.worksheets[0].sheet_name = 'VW_VOC'
+				puts(text_filename)
 
 	end
 end
-buildPath = "D:/Software/jobs/PipelineTest_Watir/builds/"
-#buildPath = "D:/Software/jobs/Testexample/"
+
+#Redirect to the Jenkins build path of Pipeline ex-'PipelineTest_Watir'
+buildPath = "D:/Software/jobs/TestPipeline_2019/builds/"
 Dir.chdir(buildPath)
+#latest build folder
 latestFolder= Dir.glob("**/").max_by {|f| File.mtime(f)}
 logFile = buildPath + latestFolder
 Dir.chdir(logFile)
-#Dir.chdir("D:/RubyExamples/VoC_scripts/JenkinsTest/")
+log_creationTime = File.mtime("log").to_s.split(" ")
+cdate = log_creationTime[0]
+ctime = log_creationTime[1].tr(':', '-')
+cdata = cdate + "_" + ctime #Creation date and time of log file
 
 if File.exist?("log")
 	pars = LogParser.new("log")
-	pars.getResults
+	#pars.getResults(buildPath, cdata)
+	pars.getResults(logFile, cdata)
 else
 	puts("Exceution history of latest build: log file not found")
 end
