@@ -47,7 +47,7 @@ class TestExample
   def test_voc_reporting_dashboard
     browse_to_new_project
 
-    login_to_portal("username***")
+    login_to_portal("username","Password")
 
     refresh_home_page
 
