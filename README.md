@@ -16,5 +16,5 @@ b.Format results and send notification
 "PipelineScritpt" - simple script to run batch file using jenkins
 "PipelineScriptwithemail" - simple script run bacth file and to send notification via email
 
-#Sample to example to create & write excel file using ruby
+
 
