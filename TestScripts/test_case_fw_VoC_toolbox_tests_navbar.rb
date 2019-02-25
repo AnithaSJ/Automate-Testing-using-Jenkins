@@ -15,7 +15,7 @@ class TestExample
 
     browse_to_new_project
 
-    login_to_portal("ttr_support", "#F3nst3r")
+    login_to_portal("username","Password")
 
     refresh_home_page
 
