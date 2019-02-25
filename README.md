@@ -1,9 +1,15 @@
-# Automate-Testing-using-Jenkins
+# Automated-Testing-using-Jenkins
 
+Goal: To automate testing of web application features. To automatically schedule the tasks using Jenkins and to notify results via email.
+
+Tasks:
 Create a new Pipeline Item in Jenkins
-Pipeline script containts build script in two stages 
+
+Pipeline stages 
 
 a.Executes Ruby test scripts 
 
-b.Evaluates results and format
+b.Format results and send notification
 
+"PipelineScritpt" - simple script to run batch file using jenkins
+"PipelineScriptwithemail" - simple script run bacth file and to send notification via email
